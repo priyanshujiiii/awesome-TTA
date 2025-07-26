@@ -138,15 +138,7 @@ Uses test-time priors (e.g., class balance, label statistics) to regularize adap
 
 ## How to Contribute
 
-To add a paper:
-
-1. Fork the repository.
-2. Add the paper under the relevant section:
-   ```markdown
-   - [Paper Title](https://arxiv.org/abs/xxxx.xxxxx) – Author(s), Conference, Year
-
-
-   ```
+if you Like our work please cite our paper
 
 ```
 @article{sharma2025awesome,

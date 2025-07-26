@@ -1,120 +1,134 @@
 # Awesome Test-Time Adaptation (TTA)
 
-A curated list of methods, papers, and resources related to **Test-Time Adaptation (TTA)** — techniques that enable models to adapt to distribution shifts during inference, without requiring access to source data.
-
-This repository is part of the comprehensive survey submitted to ACM Computing Surveys (CUSR).
-
----
-
-## Table of Contents
-
-- [Adaptation Techniques](#adaptation-techniques)
-- [How to Contribute](#how-to-contribute)
-- [License](#license)
-- [Citation](#citation)
+A curated list of **Test-Time Adaptation (TTA)** methods, papers, and resources.  
+This repository accompanies our ACM Computing Surveys (CUSR) submission titled *"Awesome TTA: A Comprehensive Survey on Test-Time Adaptation Techniques"*.
 
 ---
 
-## Adaptation Techniques
+## Summary Table of TTA Techniques
 
-Below is a list of core adaptation techniques studied in the literature. Many methods fall under multiple overlapping paradigms (e.g., self-supervised + batch-wise + entropy minimization). We've grouped them by the **primary idea or mechanism** for clarity.
+| Category                        | Description                                                             |
+|-------------------------------|-------------------------------------------------------------------------|
+| Self-supervision               | Uses auxiliary tasks (e.g., rotation, contrastive loss) for adaptation  |
+| Information Entropy            | Minimizes entropy or maximizes mutual information                       |
+| Batch Normalization            | Updates BN stats/parameters using test batches                          |
+| Pseudo Labeling                | Uses confident predictions as labels for further learning               |
+| Class Prototype                | Aligns test features to class centroids                                 |
+| Feature Alignment              | Matches test and source feature distributions                           |
+| Generative Modeling            | Uses generative models for feature alignment or synthesis               |
+| Nearest Neighbors              | Uses feature similarity for decision making or propagation              |
+| Augmentation Invariance        | Enforces consistency across augmented views                             |
+| Meta-learning                  | Trains models for fast test-time adaptation                             |
+| Time-varying / Online TTA      | Adapts to evolving test distributions in real-time                      |
+| Source-Free Domain Adaptation  | Assumes no access to source data during inference                       |
+| Test-Time Batch Adaptation     | Adapts using batches of test samples                                    |
+| Test-Time Instance Adaptation  | Adapts to each test sample independently                                |
+| Test-Time Prior Adaptation     | Leverages priors (e.g., class frequency) at test time                   |
 
 ---
+
+## Detailed Descriptions and Papers
 
 ### Self-supervision
-Leverages auxiliary tasks like rotation prediction, jigsaw puzzles, or contrastive learning to adapt the model at test time.
+Leverages auxiliary tasks (e.g., rotation prediction, jigsaw puzzles, contrastive learning) to help the model adapt at test time.
 
 - [Paper Title](#) – Author(s), Conference, Year
 
 ---
 
-### Information Entropy Minimization
-Reduces prediction uncertainty by minimizing entropy or maximizing mutual information during test-time optimization.
+### Information Entropy
+Reduces uncertainty in predictions by minimizing entropy or maximizing confidence.
 
 - [Paper Title](#)
 
 ---
 
-### Batch Normalization Adaptation
-Updates batch norm statistics or affine parameters using test data batches.
+### Batch Normalization
+Updates BatchNorm statistics or affine parameters using test data for adaptation.
 
 - [Paper Title](#)
 
 ---
 
 ### Pseudo Labeling
-Assigns pseudo-labels to confident predictions and uses them for further adaptation.
+Uses confident test predictions as pseudo labels for further fine-tuning.
 
 - [Paper Title](#)
 
 ---
 
-### Class Prototypes
-Aligns test features to stored or evolving class centroids computed from source or target data.
+### Class Prototype
+Aligns test-time feature vectors with source-class centroids for improved classification.
 
 - [Paper Title](#)
 
 ---
 
 ### Feature Alignment
-Matches test-time feature distributions to source-like representations using domain alignment techniques.
+Matches the feature distribution of test data to that of the source using domain adaptation techniques.
 
 - [Paper Title](#)
 
 ---
 
 ### Generative Modeling
-Uses generative models (e.g., GANs, VAEs, diffusion) to reconstruct or translate test samples for alignment or enhancement.
+Uses models like GANs, VAEs, or diffusion models to enhance or translate test data into source-like representations.
 
 - [Paper Title](#)
 
 ---
 
 ### Nearest Neighbors
-Employs K-NN-based decision boundaries or neighborhood consistency in feature space for adaptation.
+Uses similarity in feature space for nearest-neighbor classification or consistency enforcement.
 
 - [Paper Title](#)
 
 ---
 
 ### Augmentation Invariance
-Enforces consistency across augmented views of the same input (feature-level or prediction-level).
+Promotes stable predictions across different augmented views of the same input.
 
 - [Paper Title](#)
 
 ---
 
-### Meta-learning for TTA
-Uses meta-training to prepare models for fast adaptation to distribution shifts at inference.
+### Meta-learning
+Trains models in a meta-learning framework to adapt quickly to new domains during testing.
 
 - [Paper Title](#)
 
 ---
 
-### Time-varying / Online Adaptation
-Adapts models continuously using streaming or evolving test distributions.
+### Time-varying / Online TTA
+Adapts continuously to streaming or temporally evolving test distributions.
 
 - [Paper Title](#)
 
 ---
 
 ### Source-Free Domain Adaptation (SFDA)
-Performs domain adaptation without access to source data; only the pretrained model is available at test time.
+Performs adaptation without access to source data; only the pretrained model is used.
 
 - [Paper Title](#)
 
 ---
 
-### Test-Time Batch vs. Instance Adaptation
-- **Batch Adaptation (TTBA)**: Uses mini-batches of test samples for collective adaptation.
-- **Instance Adaptation (TTIA)**: Performs sample-wise adaptation independently.
+### Test-Time Batch Adaptation (TTBA)
+Adapts the model using batches of test samples (e.g., updating BN stats or consistency objectives).
 
 - [Paper Title](#)
 
 ---
 
-### Prior-based Adaptation
-Incorporates priors (e.g., class frequency, marginal label distribution) into test-time objectives.
+### Test-Time Instance Adaptation (TTIA)
+Applies adaptation independently to each test input.
+
+- [Paper Title](#)
+
+---
+
+### Test-Time Prior Adaptation (TTPA)
+Uses test-time priors (e.g., class balance, label statistics) to regularize adaptation.
 
 - [Paper Title](#)
 
@@ -122,8 +136,9 @@ Incorporates priors (e.g., class frequency, marginal label distribution) into te
 
 ## How to Contribute
 
-1. Fork the repository.
-2. Add a paper entry under the relevant section:
+To add a paper:
 
+1. Fork the repository.
+2. Add the paper under the relevant section:
    ```markdown
    - [Paper Title](https://arxiv.org/abs/xxxx.xxxxx) – Author(s), Conference, Year

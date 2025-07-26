@@ -36,6 +36,8 @@ Leverages auxiliary tasks (e.g., rotation prediction, jigsaw puzzles, contrastiv
 
 ---
 
+
+
 ### Information Entropy
 Reduces uncertainty in predictions by minimizing entropy or maximizing confidence.
 
@@ -142,3 +144,13 @@ To add a paper:
 2. Add the paper under the relevant section:
    ```markdown
    - [Paper Title](https://arxiv.org/abs/xxxx.xxxxx) – Author(s), Conference, Year
+```
+
+   ```
+@article{sharma2025awesome,
+  title={Awesome TTA: A Comprehensive Survey on Test-Time Adaptation Techniques},
+  author={Priyanshu Sharma},
+  journal={ACM Computing Surveys (CUSR)},
+  year={2025}
+}
+```

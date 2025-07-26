@@ -147,10 +147,11 @@ To add a paper:
 
 
    ```
+
+```
 @article{sharma2025awesome,
   title={Awesome TTA: A Comprehensive Survey on Test-Time Adaptation Techniques},
   author={Priyanshu Sharma},
   journal={ACM Computing Surveys (CUSR)},
   year={2025}
 }
-```

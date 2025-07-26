@@ -144,7 +144,7 @@ To add a paper:
 2. Add the paper under the relevant section:
    ```markdown
    - [Paper Title](https://arxiv.org/abs/xxxx.xxxxx) – Author(s), Conference, Year
-```
+
 
    ```
 @article{sharma2025awesome,

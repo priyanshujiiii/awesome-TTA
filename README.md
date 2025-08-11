@@ -21,8 +21,8 @@ A curated list of **Test-Time Adaptation (TTA)** methods, papers, and resources.
 | Meta-learning                  | Trains models for fast test-time adaptation                             |
 | Online TTA                     | Adapts to evolving test distributions in real-time                      |
 | Source-Free Domain Adaptation  | Assumes no access to source data during inference                       |
-| Test-Time Instance Adaptation  | Adapts to each test sample independently                                |
-| Test-Time Prior Adaptation     | Leverages priors (e.g., class frequency) at test time                   |
+|  Instance Adaptation  | Adapts to each test sample independently                                |
+| Prior Adaptation     | Leverages priors (e.g., class frequency) at test time                   |
 
 ---
 
@@ -337,22 +337,281 @@ A summary of key papers on online test-time adaptation (TTA) from the provided r
 
 ---
 
-### Source-Free Domain Adaptation (SFDA)
-Performs adaptation without access to source data; only the pretrained model is used.
-
-- [Paper Title](#)
+### Source-Free Domain Adaptation 
+Paper Title,Authors,Conference,Year,Link
+Domain adaptation in the absence of source domain data,"Chidlovskii, B.; Orabona, F.",KDD,2016,ACM
+Transductive adaptation of black box predictions,"Clinchant, S.; et al.",ACL,2016,ACL
+Unsupervised domain adaptation with random walks on target labelings,"Van Laarhoven, T.; Marchiori, E.",arXiv,2017,arXiv
+Source free domain adaptation using an off-the-shelf classifier,"Nelakurthi, A.; et al.",IEEE BigData,2018,IEEE
+Distant supervised centroid shift: A simple and efficient approach to visual domain adaptation,"Liang, J.; et al.",CVPR,2019,CVPR
+Do we really need to access the source data? source hypothesis transfer for unsupervised domain adaptation,"Liang, J.; et al.",ICML,2020,arXiv
+Model adaptation: Unsupervised domain adaptation without source data,"Li, R.; et al.",CVPR,2020,CVPR
+Towards inheritable models for open-set domain adaptation,"Kundu, J. N.; et al.",CVPR,2020,CVPR
+Universal source-free domain adaptation,"Kundu, J. N.; et al.",CVPR,2020,CVPR
+Generative pseudo-label refinement for unsupervised domain adaptation,"Morerio, P.; et al.",WACV,2020,WACV
+Unsupervised domain adaptation in the absence of source data,"Sahoo, R.; et al.",ICML Workshops,2020,arXiv
+Towards privacy-preserving domain adaptation,"Kim, Y.; et al.",IEEE SPL,2020,IEEE
+Source free domain adaptation with image translation,"Hou, Y.; Zheng, L.",arXiv,2020,arXiv
+Unsupervised domain expansion from multiple sources,"Zhang, Y.; et al.",arXiv,2020,arXiv
+Transfer alignment network for double blind unsupervised domain adaptation,"Xu, S.; Kang, H.",Misc,2020,OpenReview
+Model adaptation: Historical contrastive learning for unsupervised domain adaptation without source data,"Huang, J.; et al.",NeurIPS,2021,NeurIPS
+A prototype-oriented framework for unsupervised domain adaptation,"Tanwisuth, K.; et al.",NeurIPS,2021,NeurIPS
+Confident anchor-induced multi-source free domain adaptation,"Dong, J.; et al.",NeurIPS,2021,OpenReview
+Lifelong domain adaptation via consolidated internal distribution,"Rostami, M.",NeurIPS,2021,OpenReview
+Exploiting the intrinsic neighborhood structure for source-free domain adaptation,"Yang, S.; et al.",NeurIPS,2021,NeurIPS
+TTT++: When does self-supervised test-time training fail or thrive?,"Liu, Y.; et al.",NeurIPS,2021,OpenReview
+Visualizing adapted knowledge in domain transfer,"Hou, Y.; Zheng, L.",CVPR,2021,CVPR
+Adaptive adversarial network for source-free domain adaptation,"Xia, H.; et al.",CVPR,2021,ICCV
+Unsupervised multi-source domain adaptation without access to source data,"Ahmed, S.; et al.",CVPR,2021,CVPR
+Generalized source-free domain adaptation,"Yang, S.; et al.",ICCV,2021,ICCV
+Hypothesis disparity regularized mutual information maximization,"Lao, Q.; et al.",AAAI,2021,AAAI
+Source-free domain adaptation via avatar prototype generation and adaptation,"Qiu, Z.; et al.",IJCAI,2021,IJCAI
+Imbalanced source-free domain adaptation,"Li, X.; et al.",ACMMM,2021,ACM
+Unsupervised domain adaptation of black-box source models,"Zhang, H.; et al.",BMVC,2021,BMVC
+Source-free unsupervised domain adaptation with surrogate data generation,"Yan, C.; et al.",BMVC,2021,BMVC
+Domain impression: A source data free domain adaptation method,"Kurmi, V. A.; et al.",WACV,2021,WACV
+SoFA: Source-data-free feature alignment for unsupervised domain adaptation,"Yeh, H.-W.; et al.",WACV,2021,WACV
+Model adaptation through hypothesis transfer with gradual knowledge distillation,"Tang, S.; et al.",IROS,2021,IEEE
+Augmented self-labeling for source-free unsupervised domain adaptation,"Yan, C.; et al.",NeurIPS Workshops,2021,OpenReview
+Providing domain specific model via universal no data exchange domain adaptation,"Wang, X.; et al.",ICETIS,2021,IOP
+Source free domain adaptation by deep embedding clustering,"Zhu, Q.",DSIT,2021,IEEE
+Source data-absent unsupervised domain adaptation through hypothesis transfer and labeling transfer,"Liang, J.; et al.",IEEE TPAMI,2021,arXiv
+Mining data impressions from deep models as substitute for the unavailable training data,"Nayak, G. K.; et al.",IEEE TPAMI,2021,arXiv
+Model-induced generalization error bound for information-theoretic representation learning in source-data-free unsupervised domain adaptation,"Yang, S.; et al.",IEEE TIP,2021,IEEE
+Open-set hypothesis transfer with semantic consistency,"Feng, C.; et al.",IEEE TIP,2021,IEEE
+VDM-DA: Virtual domain modeling for source data-free domain adaptation,"Tian, Q.; et al.",IEEE TCSVT,2021,IEEE
+Domain adaptation without source data,"Kim, Y.; et al.",IEEE TAI,2021,arXiv
+Source-free semi-supervised domain adaptation via progressive Mixup,"Ma, N.; et al.",Knowledge-Based Systems,2022,ScienceDirect
+Self-training transformer for source-free domain adaptation,"Yang, S.; et al.",Applied Intelligence,2022,Springer
+Source-free unsupervised domain adaptation with sample transport learning,"Tian, Q.; et al.",Journal of Computer Science and Technology,2021,Springer
+On-target adaptation,"Wang, J.; et al.",arXiv,2021,arXiv
+Source-free domain adaptation via distributional alignment by matching batch normalization statistics,"Ishii, M.; Sugiyama, M.",arXiv,2021,arXiv
+Nearest neighborhood-based deep clustering for source data-absent unsupervised domain adaptation,"Tang, S.; et al.",arXiv,2021,arXiv
+Casting a BAIT for offline and online source-free domain adaptation,"Yang, S.; et al.",arXiv,2021,arXiv
+UMAD: Universal model adaptation under domain and category shift,"Liang, J.; et al.",arXiv,2021,arXiv
+Secure domain adaptation with multiple sources,"Stan, S.; Rostami, M.",arXiv,2021,arXiv
+On universal black-box domain adaptation,"Deng, W.; et al.",arXiv,2021,arXiv
+Domain adaptation without model transferring,"Wu, J.; et al.",arXiv,2021,arXiv
+Learning invariant representation with consistency and diversity for semi-supervised source hypothesis transfer,"Wang, X.; et al.",arXiv,2021,arXiv
+Confidence score for source-free unsupervised domain adaptation,"Lee, J.; et al.",ICML,2022,ICML
+Balancing discriminability and transferability for source-free domain adaptation,"Kundu, J. N.; et al.",ICML,2022,ICML
+Attracting and dispersing: A simple approach for source-free domain adaptation,"Yang, S.; et al.",NeurIPS,2022,OpenReview
+Variational model perturbation for source-free domain adaptation,"Jing, M.; et al.",NeurIPS,2022,arXiv
+Divide and contrast: Source-free domain adaptation via adaptive contrastive learning,"Zhang, Z.; et al.",NeurIPS,2022,OpenReview
+Source-free adaptation to measurement shift via bottom-up feature restoration,"Eastwood, C.; et al.",ICLR,2022,OpenReview
+DINE: Domain adaptation from single and multiple black-box predictors,"Liang, J.; et al.",CVPR,2022,arXiv
+Source-free domain adaptation via distribution estimation,"Ding, Y.; et al.",CVPR,2022,CVPR
+Contrastive test-time adaptation,"Chen, D.; et al.",CVPR,2022,CVPR
+Exploring domain-invariant parameters for source free domain adaptation,"Wang, Z.; et al.",CVPR,2022,CVPR
+BMD: A general class-balanced multicentric dynamic prototype strategy for source-free domain adaptation,"Qu, S.; et al.",ECCV,2022,ECCV
+Uncertainty-guided source-free domain adaptation,"Roy, S.; et al.",ECCV,2022,ECCV
+Prior knowledge guided unsupervised domain adaptation,"Sun, H.; et al.",ECCV,2022,ECCV
+Concurrent subsidiary supervision for unsupervised source-free domain adaptation,"Kundu, J. N.; et al.",ECCV,2022,ECCV
+Denoised maximum classifier discrepancy for source-free unsupervised domain adaptation,"Chu, T.; et al.",AAAI,2022,AAAI
+Source-free active domain adaptation via energy-based locality preserving transfer,"Li, B.; et al.",ACMMM,2022,ACM
+Polycentric clustering and structural regularization for source-free unsupervised domain adaptation,"Guan, X.; et al.",BMVC,2022,arXiv
+Dual moving average pseudo-labeling for source-free inductive domain adaptation,"Yan, H.; Guo, Y.",BMVC,2022,BMVC
+Unsupervised robust domain adaptation without source data,"Agarwal, A.; et al.",WACV,2022,WACV
+Cleaning noisy labels by negative ensemble learning for source-free unsupervised domain adaptation,"Ahmed, S.; et al.",WACV,2022,WACV
+Visual domain bridge: A source-free domain adaptation for cross-domain few-shot learning,"Yazdanpanah, A.; Moradi, P.",CVPR Workshops,2022,CVPRW
+Feed-forward source-free domain adaptation via class prototypes,"Bohdal, O.; et al.",ECCV Workshops,2022,ECCV
+Self-supervised noisy label learning for source-free unsupervised domain adaptation,"Chen, W.; et al.",IROS,2022,IEEE
+Source-free multi-domain adaptation with generally auxiliary model training,"Li, B.; et al.",IJCNN,2022,IEEE
+Boosting source-free domain adaptation via confidence-based subsets feature alignment,"Yeh, H.-W.; et al.",ICPR,2022,IEEE
+Source-free implicit semantic augmentation for domain adaptation,"Zhang, Q.; Zhang, J.",PRICAI,2022,Springer
+Source-free domain adaptation for cross-scene hyperspectral image classification,"Xu, H.; et al.",IGARSS,2022,IEEE
+SS8: Source data-free domain adaptation via deep clustering with weighted self-labelling,"Song, X.; et al.",ICNSC,2022,IEEE
+Source-free unsupervised domain adaptation via denoising mutual learning,"Zhang, H.; Tian, Q.",ICCWAMTIP,2022,IEEE
+Source-free unsupervised domain adaptation in imbalanced datasets,"Sun, H.; et al.",DSIT,2022,IEEE
+Semantic consistency learning on manifold for source data-free unsupervised domain adaptation,"Tang, S.; et al.",Neural Networks,2022,ScienceDirect
+Context-guided entropy minimization for semi-supervised domain adaptation,"Ma, N.; et al.",Neural Networks,2022,ScienceDirect
+Cross-domain contrastive learning for unsupervised domain adaptation,"Wang, Z.; et al.",IEEE TMM,2022,arXiv
+Source-free unsupervised domain adaptation with trusted pseudo samples,"Tian, Q.; et al.",ACM TIST,2022,ACM
+"If your data distribution shifts, use self-learning","Rusak, E.; et al.",TMLR,2022,OpenReview
+Self-alignment for black-box domain adaptation of image classification,"Liu, Y.; et al.",IEEE SPL,2022,IEEE
+Teacher-student mutual learning for efficient source-free unsupervised domain adaptation,"Li, B.; et al.",Knowledge-Based Systems,2022,ScienceDirect
+A source free domain adaptation model based on adversarial learning for image classification,"Liu, Y.; et al.",Applied Intelligence,2022,Springer
+Domain adaptation based on source category prototypes,"Zhou, H.; et al.",Neural Computing and Applications,2022,Springer
+Source-free unsupervised domain adaptation with maintaining model balance and diversity,"Tian, Q.; et al.",Computers and Electrical Engineering,2022,ScienceDirect
+Adaptive contrastive learning with label consistency for source data free unsupervised domain adaptation,"Zhao, J.; et al.",Sensors,2022,MDPI
+Jacobian norm for unsupervised source-free domain adaptation,"Li, B.; et al.",arXiv,2022,arXiv
+Domain gap estimation for source free unsupervised domain adaptation with many classifiers,"Zong, Z.; et al.",arXiv,2022,arXiv
+Reconciling a centroid-hypothesis conflict in source-free domain adaptation,"Diamant, G.; et al.",arXiv,2022,arXiv
+Source-free progressive graph learning for open-set domain adaptation,"Luo, Y.; et al.",arXiv,2022,arXiv
+Uncertainty-induced transferability representation for source-free unsupervised domain adaptation,"Pei, J.; et al.",arXiv,2022,arXiv
+EXTERN: Leveraging endo-temporal regularization for black-box video domain adaptation,"Xu, Y.; et al.",arXiv,2022,arXiv
+Continual conscious active fine-tuning to robustify online machine learning models against data distribution shifts,"Al-Maliki, S.; et al.",arXiv,2022,arXiv
+One ring to bring them all: Model adaptation under domain and category shift,"Yang, S.; et al.",arXiv,2022,OpenReview
+Visual prompt tuning for test-time domain adaptation,"Gao, Y.; et al.",Misc,2022,OpenReview
+Multi-source and source-private cross-domain learning for visual recognition,"Peng, X.",Thesis,2022,IUPUI
+When source-free domain adaptation meets learning with noisy labels,"Yi, L.; et al.",ICLR,2023,OpenReview
+Divide to adapt: Mitigating confirmation bias for domain adaptation of black-box predictors,"Yang, S.; et al.",ICLR,2023,OpenReview
+Twofer: Tackling continual domain shift with simultaneous domain generalization and adaptation,"Liu, Q.; et al.",ICLR,2023,OpenReview
+Do machine learning models learn statistical rules inferred from data?,"Naik, M.; et al.",ICML,2023,UPenn
+On balancing bias and variance in unsupervised multi-source-free domain adaptation,"Shen, M.; et al.",ICML,2023,OpenReview
+SODA: Robust training of test-time data adaptors,"Wang, Z.; et al.",NeurIPS,2023,arXiv
+CODA: Generalizing to open and unseen domains with compaction and disambiguation,"Chen, Z.; et al.",NeurIPS,2023,OpenReview
+Is heterogeneity notorious? Taming heterogeneity to handle test-time shift in federated learning,"Tan, Y.; et al.",NeurIPS,2023,OpenReview
+MHPL: Minimum happy points learning for active source free domain adaptation,"Wang, Y.; et al.",CVPR,2023,CVPR
+Guiding pseudo-labels with uncertainty estimation for source-free unsupervised domain adaptation,"Litrico, M.; et al.",CVPR,2023,CVPR
+Upcycling models under domain and category shift,"Qu, S.; et al.",CVPR,2023,arXiv
+C-SFDA: A curriculum learning aided self-training framework for efficient source free domain adaptation,"Karim, N.; et al.",CVPR,2023,N/A
+Divide and adapt: Active domain adaptation via customized learning,"Huang, D.; et al.",CVPR,2023,CVPR
+Class relationship embedded learning for source-free unsupervised domain adaptation,"Huang, J.; et al.",CVPR,2023,CVPR
+SSDA: Secure source-free domain adaptation,"Ahmed, S.; et al.",ICCV,2023,ICCV
+Black-box unsupervised domain adaptation with bi-directional atkinson-shiffrin memory,"Zhang, J.; et al.",ICCV,2023,arXiv
+Domain-specificity inducing transformers for source-free domain adaptation,"Sanyal, S.; et al.",ICCV,2023,arXiv
+DandelionNet: Domain composition with instance adaptive classification for domain generalization,"Hu, L.; et al.",ICCV,2023,ICCV
+Rethinking the role of pre-trained networks in source-free domain adaptation,"Zhang, Z.; et al.",ICCV,2023,ICCV
+Complementary domain adaptation and generalization for unsupervised continual domain shift learning,"Cho, H.; et al.",ICCV,2023,arXiv
+Domain adaptation with adversarial training on penultimate activations,"Sun, H.; et al.",AAAI,2023,arXiv
+Discriminability and transferability estimation: A Bayesian source importance estimation approach for multi-source-free domain adaptation,"Han, C.; et al.",AAAI,2023,AAAI
+RAIN: Regularization on input and network for black-box domain adaptation,"Peng, D.; et al.",IJCAI,2023,IJCAI
+Chaos to order: A label propagation perspective on source-free domain adaptation,"Wu, M.; et al.",ACMMM,2023,ACM
+Collaborative learning of diverse experts for source-free universal domain adaptation,"Shen, Y.; et al.",ACMMM,2023,ACM
+Domain alignment meets fully test-time adaptation,"Thopalli, K.; et al.",ACCV,2023,N/A
+Source-free cross-domain state of charge estimation of lithium-ion batteries at different ambient temperatures,"Lee, S.; et al.",BCI,2023,arXiv
+Source-free unsupervised domain adaptation for question answering,"Zhao, Z.; et al.",ICASSP,2023,IEEE
+Knowledge distillation with source-free unsupervised domain adaptation for BERT model compression,"Tian, Q.; et al.",CSCWD,2023,IEEE
+Source-free domain adaptation network for rolling bearing fault diagnosis,"Wang, Y.; et al.",IEEE ICMA,2023,IEEE
+Adaptive speech recognition via dual-level sequential pseudo labels,"Liu, Y.; et al.",AIMLR,2023,ACM
+Consistency based unsupervised self-training for ASR personalisation,"Zhang, R.; et al.",ASRU,2023,IEEE
+Location agnostic source-free domain adaptive learning to predict solar power generation,"Islam, M.; et al.",ETFG,2023,arXiv
+Source-free cross-domain state of charge estimation of lithium-ion batteries at different ambient temperatures,"Shen, Y.; et al.",IEEE TPEL,2023,IEEE
+Multiple source-free domain adaptation network based on knowledge distillation for machinery fault diagnosis,"Yue, X.; et al.",IEEE TIM,2023,IEEE
+Privacy-preserving adaptive remaining useful life prediction via source free domain adaption,"Wu, J.; et al.",IEEE TIM,2023,IEEE
+Source-free cluster adaptation for privacy-preserving machinery fault diagnosis,"Zhu, Y.; et al.",IEEE TIM,2023,IEEE
+Dual contrastive training and transferability aware adaptation for multi-source privacy-preserving motor imagery classification,"Zhu, Y.; et al.",IEEE TIM,2023,IEEE
+Source-free domain adaptation for privacy-preserving seizure prediction,"Zhao, Z.; et al.",IEEE TII,2023,IEEE
+Temporal attention source-free adaptation for chemical processes fault diagnosis,"Xiao, Y.; et al.",IEEE TII,2023,IEEE
+Single/multi-source black-box domain adaption for sensor time series data,"Ren, J.; et al.",IEEE TCYB,2023,IEEE
+Source-free domain adaptation (SFDA) for privacy-preserving seizure subtype classification,"Zhao, Z.; et al.",IEEE TNSRE,2023,IEEE
+Wireless IoT monitoring system in Hong Kong–Zhuhai–Macao bridge and edge computing for anomaly detection,"Wang, J.; et al.",IEEE Internet of Things Journal,2023,IEEE
+Unsupervised domain adaptation with and without access to source data for estimating occupancy and recognizing activities in smart buildings,"Dridi, A.; et al.",Building and Environment,2023,ScienceDirect
+Unsupervised domain adaptation without source data for estimating occupancy and recognizing activities in smart buildings,"Dridi, A.; et al.",Energy and Buildings,2023,ScienceDirect
+Source-free domain adaptation framework for fault diagnosis of rotation machinery under data privacy,"Li, F.; et al.",Reliability Engineering and System Safety,2023,ScienceDirect
+Unsupervised continual source-free network for fault diagnosis of machines under multiple diagnostic domains,"Li, B.; et al.",IEEE Sensors Journal,2023,IEEE
+Privacy-preserving domain adaptation for intracranial EEG classification via information maximization and gaussian mixture model,"Wang, Y.; et al.",IEEE Sensors Journal,2023,IEEE
+Universal source-free domain adaptation method for cross-domain fault diagnosis of machines,"Zhang, M.; et al.",Mechanical Systems and Signal Processing,2023,ScienceDirect
+Federated transfer learning in fault diagnosis under data privacy with target self-adaptation,"Li, F.; et al.",Journal of Manufacturing Systems,2023,ScienceDirect
+Target-oriented augmentation privacy-protection domain adaptation for imbalanced ECG beat classification,"Yuan, X.; Siyal, M. Y.",Biomedical Signal Processing and Control,2023,ScienceDirect
+Single-source UDA for privacy-preserving intelligent fault diagnosis based on domain augmentation,"Zhao, Z.; et al.",Measurement Science and Technology,2023,IOP
+Multi-source weighted source-free domain transfer method for rotating machinery fault diagnosis,"Gao, J.; et al.",Expert Systems With Applications,2023,ScienceDirect
+A novel generalized source-free domain adaptation approach for cross-domain industrial fault diagnosis,"Tian, Q.; et al.",Reliability Engineering & System Safety,2023,ScienceDirect
+Source-free domain adaptation for SSVEP-based brain-computer interfaces,"Guney, M.; et al.",arXiv,2023,arXiv
+Attention-based multi-source-free domain adaptation for EEG emotion recognition,"Salimnia, S.",Master Thesis,2023,Western
+Source-free domain adaptation for sleep stage classification,"Niknam, G.",Master Thesis,2023,Western
+Diversity-enhancing generative network for few-shot hypothesis adaptation,"Dong, B.; et al.",ICML,2023,OpenReview
+Class-incremental domain adaptation,"Döbler, M.; et al.",CVPR,2023,arXiv
+PromptStyler: Prompt-driven style generation for source-free domain generalization,"Cho, J.; et al.",ICCV,2023,arXiv
+Unsupervised accuracy estimation of deep visual models using domain-adaptive adversarial perturbation without source samples,"Lee, J.; et al.",ICCV,2023,arXiv
+Better practices for domain adaptation,"Ericsson, L.; et al.",AutoML,2023,OpenReview
+Causal intervention for few-shot hypothesis adaptation,"Qi, Q.; et al.",IEEE Signal Processing Letters,2023,IEEE
+TIDo: Source-free task incremental learning in non-stationary environments,"Ambastha, P.; Yun, S.",arXiv,2023,arXiv
+Adversarial learning networks: Source-free unsupervised domain incremental learning,"Ambastha, P.; Yun, S.",arXiv,2023,arXiv
+Representation transfer learning via multiple pre-trained models for linear regression,"Singh, R.; Diggavi, S.",arXiv,2023,arXiv
+Prompt ensemble self-training for open-vocabulary domain adaptation,"Huang, Z.; et al.",arXiv,2023,arXiv
+PseudoCal: A source-free approach to unsupervised uncertainty calibration in domain adaptation,"Hu, D.; et al.",arXiv,2023,arXiv
+MAsk-pruning for source-free model intellectual property protection,"Peng, D.; et al.",CVPR,2024,arXiv
+Target-agnostic source-free domain adaptation for regression tasks,"He, Y.; et al.",ICDE,2024,arXiv
+Test-time specialization of dynamic neural networks,"Leroux, T.; et al.",CVPR Workshops,2024,N/A
+Enhancing information maximization with distance-aware contrastive learning for source-free cross-domain few-shot learning,"Xu, H.; et al.",IEEE TIP,2024,arXiv
+Federated hallucination translation and source-free regularization adaptation in decentralized domain adaptation for foggy scene understanding,"Jin, Z.; et al.",IEEE TMM,2024,IEEE
+Online privacy-preserving EEG classification by source-free transfer learning,"Wu, J.; et al.",IEEE TNSRE,2024,IEEE
+CamoNet: On-device neural network adaptation with zero interaction and unlabeled data for diverse edge environments,"Zhang, J.; et al.",IEEE TMC,2024,IEEE
+RobustDA: Lightweight robust domain adaptation for evolving data at edge,"Guo, Y.; et al.",IEEE Journal on Emerging and Selected Topics in Circuits and Systems,2024,IEEE
+Test-time assessment of a model's performance on unseen domains via optimal transport,"Mehra, A.; et al.",arXiv,2024,arXiv
+"Look, learn and leverage (L^3): Mitigating visual-domain shift and discovering intrinsic relations via symbolic alignment","Xie, D.; et al.",arXiv,2024,arXiv
+LLM embeddings improve test-time adaptation for tabular Y,X-shifts,"Zeng, J.; et al.",arXiv,2024
+Asymmetric co-training for source-free few-shot domain adaptation,"Li, W.; Wu, J.; et al.",arXiv,2025,arXiv
+Adapting in-domain few-shot segmentation to new domains without retraining,"Fan, Z.; et al.",arXiv,2025,arXiv
+Rank and align: Towards effective source-free graph domain adaptation,"Luo, J.; et al.",IJCAI,2024,arXiv
+Collaborate to adapt: Source-free graph domain adaptation via bi-directional adaptation,"Zhang, Z.; et al.",WWW,2024,arXiv
+Source free graph unsupervised domain adaptation,"Mao, H.; et al.",WSDM,2024,ACM
+Self-train before you transcribe,"Flynn, C.; Ragni, A.",Interspeech,2024,arXiv
+Collaborative contrastive learning for hypothesis domain adaptation,"Chien, Y.-H.; et al.",Interspeech,2024,ISCA
+Confidence-aware hypothesis transfer networks for source-free cross-corpus speech emotion recognition,"Wang, C.; et al.",Interspeech,2024,ISCA
+Prompt tuning for audio deepfake detection: Computationally efficient test-time domain adaptation with limited target dataset,"Oiso, T.; et al.",Interspeech,2024,ISCA
+Source-free unsupervised domain adaptation for question answering via prompt-assisted self-learning,"Yin, Y.; et al.",NAACL Findings,2024,ACL
+Improving self-training with prototypical learning for source-free domain adaptation on clinical text,"Shimizu, T.; et al.",ACL Findings,2024,ACL
+Source-free domain adaptation for aspect-based sentiment analysis,"Zhao, Y.; et al.",LREC-COLING,2024,ACL
+Weighted multiple source-free domain adaptation ensemble network in intelligent machinery fault diagnosis,"Bu, X.; et al.",KSEM,2024,Springer
+Emotion-aware contrastive adaptation network for source-free cross-corpus speech emotion recognition,"Zhao, Y.; et al.",ICASSP,2024,arXiv
+Source-free domain adaptation for millimeter wave radar based human activity recognition,"Liu, W.; et al.",ICASSP,2024,IEEE
+Privacy-preserving attention-weighted multi-source domain adaptation for EEG motor imagery,"Huang, J.; et al.",ICASSP,2024,IEEE
+Source-free domain adaptation for optical music recognition,"Roselló, N.; et al.",ICDAR,2024,Springer
+A clustering-guided source-free domain transfer learning diagnostic method for rotating machinery,"Wang, Y.; et al.",I2MTC,2024,IEEE
+Source-free open-set domain adaptation network for emerging fault diagnosis of planetary gearbox,"Yue, X.; et al.",I2MTC,2024,IEEE
+Graph diffusion-based alignment with Jigsaw for source-free domain adaptation,"Luo, J.; et al.",IEEE TPAMI,2024,IEEE
+Imbalanced source-free adaptation diagnosis for rotating machinery,"Liu, Y.; et al.",IEEE TIM,2024,IEEE
+Mitigating negative transfer learning in source free-unsupervised domain adaptation for rotating machinery fault diagnosis,"Kumar, A.; et al.",IEEE TIM,2024,IEEE
+Source-free domain adaptation with self-supervised learning for non-intrusive load monitoring,"Zhong, X.; et al.",IEEE TIM,2024,IEEE
+SPARK: A high-efficiency black-box domain adaptation framework for source privacy-preserving drowsiness detection,"Yuan, X.; et al.",IEEE JBHI,2024,IEEE
+Lightweight source-free domain adaptation based on adaptive euclidean alignment for brain-computer interfaces,"Wang, Y.; et al.",IEEE JBHI,2024,IEEE
+A two-stage privacy-preserving domain adaptation for industrial time-series prediction,"Jia, Y.; et al.",IEEE TETCI,2024,IEEE
+Uncertainty estimation pseudo-labels guided source-free domain adaptation for cross-domain remaining useful life prediction in IIoT,"Chen, Y.; et al.",IEEE Internet of Things Journal,2024,IEEE
+Towards efficient multi-domain knowledge fusion adaptation via low-rank reparameterization and noisy label learning: Application to source-free cross-domain fault diagnosis in IIoT,"Lin, Y.; et al.",IEEE Internet of Things Journal,2024,IEEE
+Fast online fault diagnosis for PMSM based on adaptation model,"Hu, J.; et al.",IEEE Sensors Journal,2024,IEEE
+Reliable source-free domain adaptation for cross-user myoelectric pattern recognition,"Zhang, M.; et al.",IEEE Sensors Journal,2024,IEEE
+Source-free cross-domain fault diagnosis of rotating machinery using the siamese framework,"Ma, N.; et al.",Knowledge-Based Systems,2024,ScienceDirect
+A source free robust domain adaptation approach with pseudo-labels uncertainty estimation for rolling bearing fault diagnosis under limited sample conditions,"Liu, Y.; et al.",Knowledge-Based Systems,2024,ScienceDirect
+Anti-forgetting source-free domain adaptation method for machine fault diagnosis,"Li, F.; et al.",Knowledge-Based Systems,2024,ScienceDirect
+Source-free domain adaptation for transferable remaining useful life prediction of machine considering source data absence,"Cao, Y.; et al.",Reliability Engineering & System Safety,2024,ScienceDirect
+Source-free domain adaptation method for fault diagnosis of rotation machinery under partial information,"Yu, Z.; et al.",Reliability Engineering & System Safety,2024,ScienceDirect
+Semi-supervised source-free domain adaptation method via diffusive label propagation for rotating machinery fault diagnosis,"Su, Y.; et al.",Reliability Engineering & System Safety,2024,ScienceDirect
+Adaptive centroid prototype-based domain adaptation for fault diagnosis of rotating machinery without source data,"Li, F.; et al.",Reliability Engineering & System Safety,2024,ScienceDirect
+A robust source-free unsupervised domain adaptation method based on uncertainty measure and adaptive calibration for rotating machinery fault diagnosis,"Lin, Y.; et al.",Reliability Engineering & System Safety,2024,ScienceDirect
+Time and frequency-domain fusion for source-free adaptation fault diagnosis,"Gao, J.; et al.",Information Fusion,2024,ScienceDirect
+Reinforced fuzzy domain adaptation: Revolutionizing data-unaccessible rotating machinery fault diagnosis across multiple domains,"Liu, Y.; et al.",Expert Systems with Applications,2024,ScienceDirect
+SFDA-CD: A source-free unsupervised domain adaptation for VHR image change detection,"Wang, Y.; Wu, J.",Remote Sensing,2024,MDPI
+SFDA-T: A novel source-free domain adaptation method with strong generalization ability for fault diagnosis,"Wang, Y.; et al.",Advanced Engineering Informatics,2024,ScienceDirect
+Multi-source domain adaptive fault diagnosis method of wind turbine gearbox under no-accessing source data,"Wu, J.; et al.",Acta Energiae Solaris Sinica,2024,CSEE
+Physics-informed and unsupervised riemannian domain adaptation for machine learning on heterogeneous EEG datasets,"Mellot, A.; et al.",arXiv,2024,arXiv
+Self-taught recognizer: Toward unsupervised adaptation for speech foundation models,"Hu, J.; et al.",arXiv,2024,arXiv
+SpGesture: Source-free domain-adaptive sEMG-based gesture recognition with jaccard attentive spiking neural network,"Guo, Y.; et al.",arXiv,2024,arXiv
+Evidentially calibrated source-free time-series domain adaptation with temporal imputation,"Gong, X.; et al.",arXiv,2024,arXiv
+Source-free domain adaptation for speaker verification in data-scarce languages and noisy channels,"Elia, A.; et al.",arXiv,2024,arXiv
+Continuous test-time domain adaptation for efficient fault detection under evolving operating conditions,"Sun, H.; et al.",arXiv,2024,arXiv
+Dual test-time training for out-of-distribution recommender system,"Yang, C.; et al.",arXiv,2024,arXiv
+Multi-source and test-time domain adaptation on multivariate signals using spatio-temporal monge alignment,"Gnassounou, T.; et al.",arXiv,2024,arXiv
+The art of the steal: Purloining deep learning models developed for an ultrasound scanner to a competitor machine,"Soylu, M.; et al.",arXiv,2024,arXiv
+EverAdapt: Continuous adaptation for dynamic machine fault diagnosis environments,"Ragab, M.; et al.",arXiv,2024,arXiv
+Temporal source recovery for time-series source-free unsupervised domain adaptation,"Wang, Y.; et al.",arXiv,2024,arXiv
+AdaRC: Mitigating graph structure shifts during test-time,"Bao, Y.; et al.",arXiv,2024,arXiv
+SPDIM: Source-free unsupervised conditional and label shift adaptation in EEG,"Li, W.; et al.",arXiv,2024,arXiv
+Efficient source-free time-series adaptation via parameter subspace disentanglement,"Patel, J.; et al.",ICLR,2025,arXiv
+Aggregate to adapt: Node-centric aggregation for multi-source-free graph domain adaptation,"Zhang, Z.; He, R.",WWW,2025,OpenReview
+Source-free black-box adaptation for machine fault diagnosis,"Jiao, J.; et al.",IEEE TII,2025,IEEE
+CoUDA: Continual unsupervised domain adaptation for industrial fault diagnosis under dynamic working conditions,"Chen, Y.; et al.",IEEE TII,2025,IEEE
+Reducing bias in source-free unsupervised domain adaptation for regression,"Zhan, Y.; et al.",Neural Networks,2025,ScienceDirect
+Source-free time series domain adaptation with wavelet-based multi-scale temporal imputation,"Zhong, X.; et al.",Neural Networks,2025,ScienceDirect
+Time and frequency synergy for source-free time-series domain adaptations,"Furqon, M. T.; et al.",Information Sciences,2025,arXiv
+Source-free domain adaptation framework for rotating machinery fault diagnosis by reliable self-learning and auxiliary contrastive learning,"Ye, Z.; et al.",Reliability Engineering & System Safety,2025,ScienceDirect
+Digital twin-driven source-free adaptation diagnosis for rolling element bearing under data privacy,"Lu, Y.; et al.",Reliability Engineering & System Safety,2025,ScienceDirect
+A contrastive self-supervised learning method for source-free EEG emotion recognition,"Wang, C.; et al.",User Modeling and User-Adapted Interaction,2025,Springer
+Active source-free domain adaptation for intracranial EEG classification via neighborhood uncertainty and diversity,"Wang, Y.; et al.",Biomedical Signal Processing and Control,2025,ScienceDirect
+A novel source-free domain adaptation network for intelligent diagnosis of bearings under unknown faults,"Jia, Y.; et al.",Measurement Science and Technology,2025,IOP
+An adaptive source-free unsupervised domain adaptation method for mechanical fault detection,"Liu, Y.; et al.",Mechanical Systems and Signal Processing,2025,ScienceDirect
+Calibrated source-free adaptation for intelligent diagnosis,"Li, F.; et al.",Mechanical Systems and Signal Processing,2025,ScienceDirect
+Source-free universal domain adaptation for compressor component fault diagnosis guided by hybrid clustering strategy,"Liu, Y.; et al.",Mechanical Systems and Signal Processing,2025,ScienceDirect
+Contrastive learning-based secure unsupervised domain adaptation framework and its application in cross-factory intelligent manufacturing,"Liu, Y.; et al.",IEEE Robotics and Automation Letters,2025,IEEE
+Source-free domain adaptation for RFFI via multi-neighborhood semantic consistency and spatial adjacency,"Hu, J.; et al.",IEEE Communications Letters,2025,IEEE
+Joint source-environment adaptation of data-driven underwater acoustic source ranging based on model uncertainty,"Kari, R.; et al.",arXiv,2025,arXiv
+Learning compositional transferability of time series for source-free domain adaptation,"Sun, H.; et al.",arXiv,2025,arXiv
+Towards practical emotion recognition: An unsupervised source-free approach for EEG domain adaptation,"Imtiaz, S.; Khan, M.",arXiv,2025,arXiv
+Rectify-to-match gradient for source-free domain adaptive medical image segmentation,"Yan, H.; et al.",IEEE Sensors Journal,2025,IEEE
 
 
 ---
 
-### Test-Time Instance Adaptation (TTIA)
+### Test-Time Instance Adaptation
 Applies adaptation independently to each test input.
 
 - [Paper Title](#)
 
 ---
 
-### Test-Time Prior Adaptation (TTPA)
+### Test-Time Prior Adaptation
 Uses test-time priors (e.g., class balance, label statistics) to regularize adaptation.
 
 - [Paper Title](#)

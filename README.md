@@ -133,10 +133,34 @@ This section lists papers from the pseudo labeling branch in Test-Time Adaptatio
 
 ---
 
-### Class Prototype
-Aligns test-time feature vectors with source-class centroids for improved classification.
+# Class Prototype
+This section lists papers from the Class Prototype branch in Test-Time Adaptation, focusing on methods that leverage class prototypes (e.g., mean feature representations per class, nearest prototype classifiers, or prototype expansion/updating) to adapt models at test time without source data access. The list includes all relevant papers from the provided references and additional ones identified as related to class prototypes in TTA, covering 2019 to 2025 (current date context), with links to papers, projects, or code where available.
 
-- [Paper Title](#)
+| Title | Authors | Conference/Venue | Year | Link |
+|-------|---------|------------------|------|------|
+| Model Adaptation: Unsupervised Domain Adaptation Without Source Data | Rui Li, Qianfen Jiao, Wenming Cao, Hau-San Wong, Si Wu | Proc. CVPR | 2020 | [arXiv:2003.08264](https://arxiv.org/abs/2003.08264) |
+| Test-Time Classifier Adjustment Module for Model-Agnostic Domain Generalization | Yusuke Iwasawa, Yutaka Matsuo | Proc. NeurIPS | 2021 | [arXiv:2110.10232](https://arxiv.org/abs/2110.10232) [Code](https://github.com/yusuke-iwasawa/ttcam) |
+| Revisiting Realistic Test-Time Training: Sequential Inference and Adaptation by Anchored Clustering | Yongyi Su, Xun Xu, Kui Jia | Proc. NeurIPS | 2022 | [arXiv:2206.07579](https://arxiv.org/abs/2206.07579) [Code](https://github.com/suyongyi/ARTTA) |
+| Attracting and Dispersing: A Simple Approach for Source-free Domain Adaptation | Shiqi Yang, Yaxing Wang, Joost van de Weijer, Luis Herranz, Shangling Jui | Proc. NeurIPS | 2022 | [arXiv:2207.07583](https://arxiv.org/abs/2207.07583) [Code](https://github.com/yangshiqiO-O/AD-SFDA) |
+| On the Robustness of Open-World Test-Time Training: Self-Training with Dynamic Prototype Expansion | Yushu Yang, Yuzheng Wang, Zixuan Chen, Yu Qiao, Yixuan Li | Proc. ICCV | 2023 | [arXiv:2308.14279](https://arxiv.org/abs/2308.14279) [Code](https://github.com/YushuYang/OWTTT) |
+| Improving Test-Time Adaptation via Shift-Agnostic Weight Regularization and Nearest Source Prototypes | Sunghyun Choi, Seokyong Yang, Seungho Choi, Sungrack Yun | Proc. ECCV | 2022 | [arXiv:2207.10466](https://arxiv.org/abs/2207.10466) |
+| Test-Time Adaptation via Self-Training with Nearest Neighbor Information | Minho Jang, Seung-Yoon Chung | Proc. ICLR | 2023 | [arXiv:2207.10792](https://arxiv.org/abs/2207.10792) |
+| AdaNPC: Exploring Non-Parametric Classifier for Test-Time Adaptation | Xiao Zhang, Xihong Yang, Kaifu Yang, Kun Yuan, Zhiyuan Zhang, Lanqing Hong, Fengwei Zhou, Zhisong Pan, Hongtian Yu, Zhenguo Li, Guojun Qi | Proc. ICML | 2023 | [arXiv:2212.08355](https://arxiv.org/abs/2212.08355) |
+| DomainAdaptor: A Novel Approach to Test-Time Adaptation | Jian Zhang, Lei Qi, Yinghuan Shi, Yang Gao | Proc. CVPR | 2023 | [arXiv:2308.10297](https://arxiv.org/abs/2308.10297) [Code](https://github.com/koncle/DomainAdaptor) |
+| Feature Alignment and Uniformity for Test Time Adaptation | Shuaifeng Wang, Di Zhang, Zhenyu Zhang, Jian Zhang, Rui Li | Proc. CVPR | 2023 | [arXiv:2303.10018](https://arxiv.org/abs/2303.10018) |
+| Test-Time Adaptation by Aligning Prototypes using Self-Supervision | Sebastian Palacio, Federico Raue, Jörn Hees, Andreas Dengel | arXiv | 2022 | [arXiv:2205.08731](https://arxiv.org/abs/2205.08731) |
+| Learning Classifiers of Prototypes and Reciprocal Points for Universal Domain Adaptation | Eduardo Fernandes Montesuma, Fred Maurice Ngolè Mboula | arXiv | 2022 | [arXiv:2212.08355](https://arxiv.org/abs/2212.08355) |
+| Decoupled Prototype Learning for Reliable Test-Time Adaptation | Bingfan Liu, Yao Li, Zhiyong Li, Junhui Hou | arXiv | 2024 | [arXiv:2401.08703](https://arxiv.org/abs/2401.08703) |
+| Gradient Alignment with Prototype Feature for Fully Test-Time Adaptation | Haojie Zhang, Mingkai Chen, Chunhua Shen, Yuhui Zheng, Wenrui Dai, Hongkai Xiong | arXiv | 2024 | [arXiv:2402.09004](https://arxiv.org/abs/2402.09004) |
+| Rethinking Class-incremental Learning in the Era of Large Pre-trained Models via Test-Time Adaptation | Imad Eddine Marouf, Nicolo Micheletti, Martina Pastorino, Alessandro Perelli, Elisabetta Farella, Davide Bacciu | arXiv | 2023 | [arXiv:2310.11482](https://arxiv.org/abs/2310.11482) |
+| Mitigate the Bias in the Model for Continual Test-Time Adaptation | Sanghun Jung, Taesik Gong, Jungkwon Lee | arXiv | 2024 | [arXiv:2403.01344](https://arxiv.org/abs/2403.01344) |
+| Test-Time Prototype Shifting for Zero-Shot Generalization across Vision-Language Models | Haoxing Chen, Yan Hong, Zeyang Zhou, Ninad Kulkarni, Hakan Bilen | arXiv | 2024 | [arXiv:2403.12952](https://arxiv.org/abs/2403.12952) |
+| Dual Prototype Evolving for Test-Time Generalization of Vision-Language Models | Haiwen Diao, Bo Li, Xin-Yu Zhang, Jiaqing Liu, Huchuan Lu, Xiang Ruan | arXiv | 2024 | [arXiv:2410.12790](https://arxiv.org/abs/2410.12790) |
+| Multi-Cache Enhanced Prototype Learning for Test-Time Adaptation | Xinyu Wang, Zhihong Qi, Tao Wang, Zhizhong Zhang, Linrui Gong, Xun Yang, Yue Yu, Zhibo Chen, Yuan He, Yuming Jiang | arXiv | 2025 | [arXiv:2508.01225](https://arxiv.org/abs/2508.01225) |
+| Temporal Test-Time Adaptation with State-Space Models | Mona Schirmer, Dan Zhang, Eric Nalisnick | arXiv | 2024 | [arXiv:2407.12492](https://arxiv.org/abs/2407.12492) |
+| Controllable Continual Test-Time Adaptation | Ziqi Shi, Fan Lyu, Ye Liu, Fanhua Shang, Xiaoyu Dong, Yuanyuan Liu, Liang Wan | arXiv | 2024 | [arXiv:2405.14602](https://arxiv.org/abs/2405.14602) |
+| When Test-Time Adaptation Meets Self-Supervised Models | Guodong Liu, Yuhang Wen, Guohao Qu, Wanli Ouyang, Mingkui Tan | arXiv | 2025 | [arXiv:2506.23529](https://arxiv.org/abs/2506.23529) |
+| Self-Bootstrapping for Versatile Test-Time Adaptation | Yunsu Bok, Hyeonseo Cho, Tae-Hyun Oh | arXiv | 2025 | [arXiv:2504.08010](https://arxiv.org/abs/2504.08010) |
 
 ---
 

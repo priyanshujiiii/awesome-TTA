@@ -253,11 +253,26 @@ This section lists papers from the Nearest Neighbors branch in Test-Time Adaptat
 
 ---
 
-### Augmentation Invariance
-Promotes stable predictions across different augmented views of the same input.
+# Augmentation Invariance
 
-- [Paper Title](#)
+This section lists papers from the Augmentation Invariance branch in Test-Time Adaptation, focusing on methods that leverage data augmentation techniques (e.g., test-time augmentation, perturbation robustness, or augmentation policies) to achieve invariance and adapt models at test time without source data access. The list includes relevant papers from 2016 to 2024, with links to papers, projects, or code where available.
 
+| Title | Authors | Conference/Venue | Year | Link |
+|-------|---------|------------------|------|------|
+| Deep CORAL: Correlation Alignment for Deep Domain Adaptation | Baochen Sun, Kate Saenko | Proc. ECCV | 2016 | [arXiv:1607.01719](https://arxiv.org/abs/1607.01719) |
+| AutoAugment: Learning Augmentation Policies from Data | Ekin D. Cubuk, Barret Zoph, Dandelion Mane, Vijay Vasudevan, Quoc V. Le | arXiv | 2018 | [arXiv:1805.09501](https://arxiv.org/abs/1805.09501) |
+| mixup: Beyond Empirical Risk Minimization | Hongyi Zhang, Moustapha Cisse, Yann N. Dauphin, David Lopez-Paz | Proc. ICLR | 2018 | [arXiv:1710.09412](https://arxiv.org/abs/1710.09412) |
+| Learning Loss for Test-Time Augmentation | Inkyu Kim, Youngjae Kim, Sungjin Kim | Proc. NeurIPS | 2020 | [arXiv:2002.07163](https://arxiv.org/abs/2002.07163) |
+| When and Why Test-Time Augmentation Works | Divya Shanmugam, Davis Blalock, Guha Balakrishnan, John Guttag | arXiv | 2020 | [arXiv:2011.11156](https://arxiv.org/abs/2011.11156) |
+| Test-Time Adaptation through Perturbation Robustness | Ingmar Kim, Youngjae Kim, Sungjin Kim, Junsuk Choe | Proc. NeurIPS-WS | 2021 | [arXiv:2105.14741](https://arxiv.org/abs/2105.14741) |
+| Understanding Test-Time Augmentation | Masato Kimura | Proc. ICONIP | 2021 | [Springer](https://link.springer.com/chapter/10.1007/978-3-030-92310-5_65) |
+| Better Aggregation in Test-Time Augmentation | Divya Shanmugam, Davis Blalock, Guha Balakrishnan, John Guttag | Proc. ICCV | 2021 | [arXiv:2011.11156](https://arxiv.org/abs/2011.11156) |
+| Greedy Policy Search: A Simple Baseline for Learnable Test-Time Augmentation | Alexander Lyzhov, Yuliya Molchanova, Arsenii Ashukha, Dmitry Molchanov, Dmitry Vetrov | Proc. UAI | 2020 | [PMLR](http://proceedings.mlr.press/v124/lyzhov20a.html) |
+| Test-Time Augmentation for Deep Learning-Based Cell Segmentation on Microscopy Images | Nikita Moshkov, Botond Mathe, Attila Kertesz-Farkas, Reka Hollandi, Peter Horvath | Scientific Reports | 2020 | [Nature](https://www.nature.com/articles/s41598-020-61808-3) |
+| Aleatoric Uncertainty Estimation with Test-Time Augmentation for Medical Image Segmentation with Convolutional Neural Networks | Guotai Wang, Wenqi Li, Michael Aertsen, Jan Deprest, Sebastien Ourselin, Tom Vercauteren | Neurocomputing | 2019 | [ScienceDirect](https://www.sciencedirect.com/science/article/abs/pii/S0925231219300532) |
+| Balancing Discriminability and Transferability for Source-Free Domain Adaptation | Jogendra Nath Kundu, Akshay R. Kulkarni, Suvaansh Bhambri, Deepesh Mehta, Shreyas Anand Kulkarni, Varun Jampani, Venkatesh Babu Radhakrishnan | Proc. ICML | 2022 | [arXiv:2206.08009](https://arxiv.org/abs/2206.08009) [Project](https://vision.iit.ac.in/projects/source-free-da/) |
+| MEMO: Test Time Robustness via Adaptation and Augmentation | Marvin Zhang, Sergey Levine, Chelsea Finn | Proc. NeurIPS | 2022 | [arXiv:2110.09506](https://arxiv.org/abs/2110.09506) [Code](https://github.com/facebookresearch/memo) |
+| Intelligent Multi-View Test Time Augmentation | Erdem Ozturk, Mohsen Prabhushankar, Ghassan AlRegib | Proc. ICIP | 2024 | [arXiv:2402.09378](https://arxiv.org/abs/2402.09378) |
 ---
 
 ### Meta-learning

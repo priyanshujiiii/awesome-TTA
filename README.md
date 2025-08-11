@@ -197,7 +197,7 @@ This section lists papers from the Feature Alignment branch in Test-Time Adaptat
 | MEMO: Test Time Robustness via Adaptation and Augmentation | Marvin Zhang, Sergey Levine, Chelsea Finn | Proc. NeurIPS | 2022 | [arXiv:2110.09506](https://arxiv.org/abs/2110.09506) [Code](https://github.com/facebookresearch/memo) |
 ---
 
-### Generative Modeling
+# Generative Modeling
 This section lists papers from the Generative Modeling branch in Test-Time Adaptation, focusing on methods that leverage generative models (e.g., diffusion models, masked autoencoders, or other generative techniques) to adapt models at test time without source data access. The list includes relevant papers from 2018 to 2023, with links to papers, projects, or code where available.
 
 | Title | Authors | Conference/Venue | Year | Link |

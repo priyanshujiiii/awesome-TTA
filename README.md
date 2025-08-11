@@ -28,7 +28,7 @@ A curated list of **Test-Time Adaptation (TTA)** methods, papers, and resources.
 
 ## Detailed Descriptions and Papers
 
-### Self-supervision
+# Self-supervision
 Leverages auxiliary tasks (e.g., rotation prediction, jigsaw puzzles, contrastive learning) to help the model adapt at test time.
 
 | Title | Authors | Conference/Venue | Year | Link |

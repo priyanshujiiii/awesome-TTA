@@ -76,10 +76,37 @@ his section lists papers from the Information Entropy branch in Test-Time Adapta
 | Revisiting Realistic Test-Time Training: Sequential Inference and Adaptation | Yongyi Su, Xun Xu, Kui Jia | Proc. NeurIPS | 2022 | [arXiv:2206.07579](https://arxiv.org/abs/2206.07579) |
 ---
 
-### Batch Normalization
-Updates BatchNorm statistics or affine parameters using test data for adaptation.
+# Batch Normalization
+This section lists papers from the Batch Normalization branch in Test-Time Adaptation, focusing on methods that leverage batch normalization techniques, such as adapting normalization statistics or layers, to improve model performance at test time without source data access. The list includes papers from 2019 to 2023, with select 2024 papers where specified, and includes links to papers, projects, or code where available.
 
-- [Paper Title](#)
+| Title | Authors | Conference/Venue | Year | Link |
+|-------|---------|------------------|------|------|
+| Fully Test-Time Adaptation by Sampling | Yu Sun, Xiaolong Wang, Zhuang Liu, John Miller, Alexei A. Efros, Moritz Hardt | Proc. ICML | 2020 | [arXiv:2002.08782](https://arxiv.org/abs/2002.08782) |
+| Improving Robustness Against Common Corruptions by Covariate Shift Adaptation | Steffen Schneider, Evgenia Rusak, Luisa Eck, Oliver Bringmann, Wieland Brendel, Matthias Bethge | Proc. NeurIPS | 2020 | [arXiv:2006.14970](https://arxiv.org/abs/2006.14970) [Code](https://github.com/bethgelab/robustness) |
+| Revisiting Batch Normalization for Improving Corruption Robustness | Philipp Benz, Chaithanya Kumar Mummadi, Jan Hendrik Metzen, Volker Fischer | Proc. WACV | 2021 | [CVF Open Access](http://openaccess.thecvf.com/content/WACV2021/html/Benz_Revisiting_Batch_Normalization_for_Improving_Corruption_Robustness_WACV_2021_paper.html) [Code](https://github.com/phibenz/batch_norm_adaptation.pytorch) |
+| Adaptive Risk Minimization: Learning to Adapt to Domain Shift | Marvin Zhang, Henrik Marklund, Nikita Arora, Yuheng Zhang, Sergey Levine, Chelsea Finn | Proc. NeurIPS | 2021 | [OpenReview](https://openreview.net/forum?id=-zgb2v8vV_w) [Code](https://github.com/henrikmarklund/arm) |
+| Adaptive Methods for Real-World Domain Generalization | Abhimanyu Dubey, Vignesh Ramanathan, Alex Pentland, Dhruv Mahajan | Proc. CVPR | 2021 | [CVF Open Access](https://openaccess.thecvf.com/content/CVPR2021/html/Dubey_Adaptive_Methods_for_Real-World_Domain_Generalization_CVPR_2021_paper.html) [Code](https://github.com/abhimanyudubey/PrototypicalDomainGeneralization) |
+| Limitations of Post-Hoc Feature Alignment for Robustness | David X. Li, Chenhan Yuan, Anima Anandkumar, Stefano Soatto | Proc. CVPR | 2021 | [CVF Open Access](https://openaccess.thecvf.com/content/CVPR2021/html/Li_Limitations_of_Post-Hoc_Feature_Alignment_for_Robustness_CVPR_2021_paper.html) [Code](https://github.com/davidli125/limitations_post_hoc) |
+| AdaBN: Adaptive Batch Normalization for Domain Adaptation | Mattia Segu, Alessio Tonioni, Federico Tombari | Proc. CVPR | 2021 | [CVF Open Access](https://openaccess.thecvf.com/content/CVPR2021/html/Segu_AdaBN_Adaptive_Batch_Normalization_for_Domain_Adaptation_CVPR_2021_paper.html) |
+| Covariate Shift Adaptation for Adversarially Robust Classifier | Jay Nandy, Sudipan Saha, Rishabh Iyer | Proc. ICLR Workshops | 2021 | [PDF](https://aisecure-workshop.github.io/aml-iclr2021/papers/2.pdf) |
+| Test-Time Batch Normalization | Guanyu Cai, Lianghua Huang, Fengbin Chang, Yufei Wang | Proc. ECCV | 2022 | [arXiv:2203.17205](https://arxiv.org/abs/2203.17205) |
+| Meta-DMoE: Adapting to Domain Shift by Meta-Distillation from Mixture-of-Experts | Tao Zhong, Feng Ji, Zhiyi He, Zihan Liu, Zhaowei Cai, Ming Liu, Nicu Sebe, Dacheng Tao | Proc. NeurIPS | 2022 | [OpenReview](https://openreview.net/forum?id=_ekGcr07Dsp) [Code](https://github.com/n3il666/Meta-DMoE) |
+| Test-Time Adaptation with Principal Component Analysis | Nicolas Cordier, Amaury Habrard, Marc Sebban | Proc. ECML/PKDD Workshops | 2022 | [arXiv:2209.05779](https://arxiv.org/abs/2209.05779) |
+| Learning Less Generalizable Patterns with an Asymmetrically Trained Double Classifier for Better Test-Time Adaptation | Matthieu Duboudin, Mohammad Rostami, Amaury Habrard, Marc Sebban | arXiv | 2022 | [arXiv:2210.09834](https://arxiv.org/abs/2210.09834) |
+| TTN: A Domain-Shift Aware Batch Normalization in Test-Time Adaptation | Joonho Lee, Woo Jin Kim, Seunghyeon Seo, Seungyong Han, Seong-Jin Park, Seungkyu Lee | Proc. ICLR | 2023 | [OpenReview](https://openreview.net/forum?id=7X5t0v_6H_) |
+| Delta: Degradation-Free Fully Test-Time Adaptation | Naoki Murata, Masaki Yamada, Takashi Shibata, Shota Saito | Proc. ICLR | 2023 | [OpenReview](https://openreview.net/forum?id=7N6V4YgCxh) |
+| Towards Stable Test-Time Adaptation in Dynamic Wild World | Shuaicheng Niu, Jiaxiang Wu, Yifan Zhang, Yaofo Chen, Shijian Lu, Peilin Zhao, Junzhou Huang, Peng Cui, Mingkui Tan | Proc. ICLR | 2023 | [arXiv:2210.00826](https://arxiv.org/abs/2210.00826) [Code](https://github.com/mr-eggplant/SATA) |
+| Test-Time Adaptation in the Dynamic World with Compound Domain Knowledge Management | Junha Song, Kwanyong Park, Inkyu Shin, Sanghyun Woo, Chaoning Zhang, In So Kweon | IEEE Robotics and Automation Letters | 2023 | [arXiv:2302.14760](https://arxiv.org/abs/2302.14760) |
+| Robustness to Corruption in Pre-Trained Bayesian Neural Networks | Zihuan Wang, Laurence Aitchison | Proc. ICLR | 2023 | [OpenReview](https://openreview.net/forum?id=kUI41mY8bHl) |
+| Test-Time Distribution Normalization for Contrastively Learned Vision-Language Models | Yifei Zhou, Yucheng Zhou, Mengnan Du, Junzhou Huang, Peng Liu, Yitao Liang | Proc. NeurIPS | 2023 | [arXiv:2302.11084](https://arxiv.org/abs/2302.11084) [Code](https://github.com/fengyuli-dev/distribution-normalization) |
+| Adaptive Test-Time Personalization for Federated Learning | Wenxuan Bao, Tianxin Wei, Haohan Wang, Jingrui He | Proc. NeurIPS | 2023 | [arXiv:2310.18816](https://arxiv.org/abs/2310.18816) [Code](https://github.com/baowenxuan/ATP) |
+| DomainAdaptor: A Novel Approach to Test-Time Adaptation | Rui Zhang, Jianming Zhang, Hong Chen, Min Li | Proc. ICCV | 2023 | [arXiv:2308.10297](https://arxiv.org/abs/2308.10297) [Code](https://github.com/koncle/DomainAdaptor) |
+| ClusT3: Information Invariant Test-Time Training | Gustavo Vargas Hakim, David Osowiechi, Mehrdad Yaghoobi, Sotirios A. Tsaftaris | Proc. ICCV | 2023 | [CVF Open Access](https://openaccess.thecvf.com/content/ICCV2023/html/Hakim_ClusT3_Information_Invariant_Test-Time_Training_ICCV_2023_paper.html) [Code](https://github.com/dosowiechi/ClusT3) |
+| TTTFlow: Unsupervised Test-Time Training with Normalizing Flow | David Osowiechi, Gustavo Vargas Hakim, Mehrdad Yaghoobi, Sotirios A. Tsaftaris | Proc. WACV | 2023 | [CVF Open Access](https://openaccess.thecvf.com/content/WACV2023/html/Osowiechi_TTTFlow_Unsupervised_Test-Time_Training_With_Normalizing_Flow_WACV_2023_paper.html) [Code](https://github.com/GustavoVargasHakim/TTTFlow) |
+| Channel Selection for Test-Time Adaptation Under Distribution Shift | João Vianna, Rafael Padilha, Leonardo Ferreira, Bruce Magalhães, Nicolas Dobigeon | Proc. NeurIPS Workshops | 2023 | [OpenReview](https://openreview.net/forum?id=BTOBu7y2ZD) |
+| Sit Back and Relax: Learning to Drive Incrementally in All Weather Conditions | Joachim Böhme Leitner, Simon Hecker, Stefan K. Schaub, Vasileios Belagiannis | Proc. IEEE Intelligent Vehicles Symposium | 2023 | [arXiv:2305.18953](https://arxiv.org/abs/2305.18953) [Code](https://github.com/jmiemirza/DILAM) |
+| Dynamic Batch Norm Statistics Update for Natural Robustness | Saeed Rezaei, Mohammad Sadegh Norouzzadeh | arXiv | 2023 | [arXiv:2310.20649](https://arxiv.org/abs/2310.20649) |
+| Test-Time Domain Adaptation by Learning Domain-Aware Batch Normalization | Yanan Wu, Zhixiang Chi, Guosheng Lin, Yonghong Tian, Xing Tang, Xianbin Cao, Haoli Bai | Proc. AAAI | 2024 | [arXiv:2312.10165](https://arxiv.org/abs/2312.10165) [Code](https://github.com/ynanwu/MABN) |
 
 ---
 

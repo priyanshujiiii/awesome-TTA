@@ -880,7 +880,7 @@ a comprehensive table summarizing key instance-level test-time adaptation (TTA) 
 | Policy adaptation from foundation model feedback | Ge et al. | CVPR | 2023 | [CVPR](https://openaccess.thecvf.com/content/CVPR2023/html/Ge_Policy_Adaptation_from_Foundation_Model_Feedback_CVPR_2023_paper.html) |
 | MATE: Masked autoencoders are online 3D test-time learners | Mirza et al. | ICCV | 2023 | [ICCV](https://openaccess.thecvf.com/content/ICCV2023/html/Mirza_MATE_Masked_Autoencoders_are_Online_3D_Test-Time_Learners_ICCV_2023_paper.html) |
 | Meta-auxiliary learning for future depth prediction in videos | Liu et al. | WACV | 2023 | [WACV](https://openaccess.thecvf.com/content/WACV2023/html/Liu_Meta-Auxiliary_Learning_for_Future_Depth_Prediction_in_Videos_WACV_2023_paper.html) |
-| Infrared and visible image fusion via test-time training | Zheng et al. | PRCV | 2023 | [Springer](https://link.springer.com/chapter/10.1007/978-981-99
+| Infrared and visible image fusion via test-time training | Zheng et al. | PRCV | 2023 | [Springer](https://link.springer.com/chapter/10.1007/978-981-99)
 ---
 
 # Prior Adaptation

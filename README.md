@@ -21,7 +21,6 @@ A curated list of **Test-Time Adaptation (TTA)** methods, papers, and resources.
 | Meta-learning                  | Trains models for fast test-time adaptation                             |
 | Time-varying / Online TTA      | Adapts to evolving test distributions in real-time                      |
 | Source-Free Domain Adaptation  | Assumes no access to source data during inference                       |
-| Test-Time Batch Adaptation     | Adapts using batches of test samples                                    |
 | Test-Time Instance Adaptation  | Adapts to each test sample independently                                |
 | Test-Time Prior Adaptation     | Leverages priors (e.g., class frequency) at test time                   |
 

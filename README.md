@@ -337,7 +337,7 @@ A summary of key papers on online test-time adaptation (TTA) from the provided r
 
 ---
 
-### Source-Free Domain Adaptation 
+# Source-Free Domain Adaptation 
 a comprehensive table summarizing key Source-Free Domain Adaptation (SFDA) papers, including titles, authors, conferences, years, and links to the papers where available. The table is organized chronologically across all categories (Shallow Methods, Image Classification, and others from 2016–2025), focusing on impactful papers from high-impact venues (e.g., CVPR, NeurIPS, ICLR, ICCV) and recent works (2020–2025). Papers marked as outdated in the original document are excluded, and only the most recent publication is listed for each work. Links are sourced from arXiv, conference proceedings, or other repositories; "[N/A]" indicates unavailable links.
 
 | Paper Title | Authors | Conference | Year | Link |

@@ -230,10 +230,26 @@ This section lists papers from the Generative Modeling branch in Test-Time Adapt
 | Continual Test-Time Domain Adaptation | Qin Wang, Olga Fink, Luc Van Gool, Dengxin Dai | Proc. CVPR | 2022 | [arXiv:2203.13591](https://arxiv.org/abs/2203.13591) |
 ---
 
-### Nearest Neighbors
-Uses similarity in feature space for nearest-neighbor classification or consistency enforcement.
+# Nearest Neighbors
+This section lists papers from the Nearest Neighbors branch in Test-Time Adaptation, focusing on methods that leverage nearest neighbors (e.g., k-NN classifiers, neighborhood structure exploitation, or self-training with NN information) to adapt models at test time without source data access. The list includes relevant papers from 2017 to 2023, with links to papers, projects, or code where available.
 
-- [Paper Title](#)
+| Title | Authors | Conference/Venue | Year | Link |
+|-------|---------|------------------|------|------|
+| Deep Hashing Network for Unsupervised Domain Adaptation | Hemanth Venkateswara, Jose Eusebio, Shayok Chakraborty, Sethuraman Panchanathan | Proc. CVPR | 2017 | [CVF Open Access](https://openaccess.thecvf.com/content_cvpr_2017/html/Venkateswara_Deep_Hashing_Network_CVPR_2017_paper.html) |
+| Recognition in Terra Incognita | Sara Beery, Grant Van Horn, Pietro Perona | Proc. ECCV | 2018 | [CVF Open Access](https://openaccess.thecvf.com/content_ECCV_2018/html/Sara_Beery_Recognition_in_Terra_ECCV_2018_paper.html) |
+| Pseudo-Labeling and Confirmation Bias in Deep Semi-Supervised Learning | Eric Arazo, Diego Ortego, Paul Albert, Noel E. O'Connor, Kevin McGuinness | arXiv | 2020 | [arXiv:1908.02983](https://arxiv.org/abs/1908.02983) |
+| Generalized Source-Free Domain Adaptation | Shiqi Yang, Yaxing Wang, Joost van de Weijer, Luis Herranz, Shangling Jui | Proc. ICCV | 2021 | [arXiv:2108.01614](https://arxiv.org/abs/2108.01614) [Code](https://github.com/Albert0147/SFDA-DG) |
+| Exploiting the Intrinsic Neighborhood Structure for Source-Free Domain Adaptation | Yuqi Chen, Zeyue Tian, Qilong Wang, Banggu Wu, Huijuan Xu | Proc. NeurIPS | 2022 | [arXiv:2110.04202](https://arxiv.org/abs/2110.04202) [Code](https://github.com/CVI-SZU/NEST) |
+| Test-Time Adaptation via Self-Training with Nearest Neighbor Information | Minho Jang, Sae-Young Chung | Proc. ICLR | 2023 | [arXiv:2207.10792](https://arxiv.org/abs/2207.10792) [Code](https://github.com/m-jng/TTST) |
+| Debiased Self-Training for Semi-Supervised Learning | Baixu Chen, Junguang Jiang, Ximei Wang, Pengfei Wan, Jianmin Wang, Mingsheng Long | Proc. NeurIPS | 2022 | [arXiv:2210.10969](https://arxiv.org/abs/2210.10969) |
+| Self-Supervised Representation Learning by Rotation Feature Decoupling | Chaoqin Huang, Mingkai Zheng, Chongjie Si, Jun Shu, Haifeng Hu, Xian Wei | Proc. CVPR | 2019 | [CVF Open Access](https://openaccess.thecvf.com/content_CVPR_2019/html/Feng_Self-Supervised_Representation_Learning_by_Rotation_Feature_Decoupling_CVPR_2019_paper.html) |
+| Unsupervised Domain Adaptation with Residual Transfer Networks | Mingsheng Long, Han Zhu, Jianmin Wang, Michael I. Jordan | Proc. NeurIPS | 2016 | [arXiv:1602.04433](https://arxiv.org/abs/1602.04433) |
+| Unsupervised Domain Adaptation by Backpropagation | Yaroslav Ganin, Victor Lempitsky | Proc. ICML | 2015 | [arXiv:1409.7495](https://arxiv.org/abs/1409.7495) |
+| Domain Adaptation for Visual Applications: A Comprehensive Survey | Gabriela Csurka | arXiv | 2017 | [arXiv:1702.05374](https://arxiv.org/abs/1702.05374) |
+| Fine-Tuning Can Distort Pretrained Features and Underperform Out-of-Distribution | Ananya Kumar, Aditi Raghunathan, Robbie Jones, Tengyu Ma, Percy Liang | Proc. ICLR | 2022 | [arXiv:2202.10054](https://arxiv.org/abs/2202.10054) |
+| Learning Transferable Representations for Unsupervised Domain Adaptation | Ozan Sener, Hyun Oh Song, Ashutosh Saxena, Silvio Savarese | Proc. NeurIPS | 2016 | [arXiv:1608.07716](https://arxiv.org/abs/1608.07716) |
+| Unsupervised Embedding Adaptation via Early-Stage Feature Reconstruction for Few-Shot Classification | Dong-Hyun Lee, Sae-Young Chung | Proc. ICML | 2021 | [arXiv:2103.01941](https://arxiv.org/abs/2103.01941) |
+| Nearest Neighborhood-Based Deep Clustering for Source Data-Absent Unsupervised Domain Adaptation | Song Tang, Yan Yang, Zhiyuan Ma, Norman Hendrich, Fanyu Zeng, Shuzhi Sam Ge, Changshui Zhang, Jianwei Zhang | arXiv | 2021 | [arXiv:2107.12585](https://arxiv.org/abs/2107.12585) |
 
 ---
 

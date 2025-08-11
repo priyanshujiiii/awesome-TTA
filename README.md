@@ -110,10 +110,26 @@ This section lists papers from the Batch Normalization branch in Test-Time Adapt
 
 ---
 
-### Pseudo Labeling
-Uses confident test predictions as pseudo labels for further fine-tuning.
+# Pseudo Labeling
+This section lists papers from the pseudo labeling branch in Test-Time Adaptation, focusing on methods that leverage pseudo-labels generated at test time (often via self-training or related techniques) to adapt models without source data access. The list includes relevant papers from 2019 to 2023 identified from the provided references and queries, with available links to papers, projects, or code where specified.
 
-- [Paper Title](#)
+| Title | Authors | Conference/Venue | Year | Link |
+|-------|---------|------------------|------|------|
+| Do We Really Need to Access the Source Data? Source Hypothesis Transfer for Unsupervised Domain Adaptation | Jian Liang, Dapeng Hu, Jiashi Feng | Proc. ICML | 2020 | [arXiv:2002.08546](https://arxiv.org/abs/2002.08546) [Code](https://github.com/liangjian66/SHOT) |
+| Generative Pseudo-label Refinement for Unsupervised Domain Adaptation | Pietro Morerio, Riccardo Volpi, Ruggero Ragonesi, Vittorio Murino | Proc. WACV | 2020 | [CVF Open Access](https://openaccess.thecvf.com/content_WACV_2020/html/Morerio_Generative_Pseudo-label_Refinement_for_Unsupervised_Domain_Adaptation_WACV_2020_paper.html) |
+| A Free Lunch for Unsupervised Domain Adaptive Object Detection without Source Data | Xianfeng Li, Weijie Chen, Di Xie, Shicai Yang, Peng Yuan, Shiliang Pu, Yueting Zhuang | Proc. AAAI | 2021 | [AAAI](https://ojs.aaai.org/index.php/AAAI/article/view/17029) [arXiv:2012.05400](https://arxiv.org/abs/2012.05400) |
+| Uncertainty Reduction for Model Adaptation in Semantic Segmentation | Cristiano Saltori, Niccolò Zanella, Fabio Galasso, Giuseppe Fiameni, Elisa Ricci, Nicu Sebe | Proc. CVPR | 2021 | [CVF Open Access](https://openaccess.thecvf.com/content/CVPR2021/html/Saltori_Uncertainty_Reduction_for_Model_Adaptation_in_Semantic_Segmentation_CVPR_2021_paper.html) [Code](https://github.com/saltoricristiano/URMA-SS) |
+| Self-Supervised Test-Time Learning for Reading Comprehension | Pratyay Banerjee, Tejas Gokhale, Chitta Baral | Proc. NAACL | 2021 | [ACL Anthology](https://aclanthology.org/2021.naacl-main.404/) |
+| If Your Data Distribution Shifts, Use Self-Learning | Evgenia Rusak, Steffen Schneider, George Pachitariu, Luisa Eck, Peter Vincent Gehler, Oliver Bringmann, Wieland Brendel, Matthias Bethge | Transactions on Machine Learning Research | 2022 | [TMLR](https://openreview.net/forum?id=1cNMcC3o4P) [arXiv:2104.12928](https://arxiv.org/abs/2104.12928) [Code](https://domainadaptation.org/selflearning) |
+| Continual Test-Time Domain Adaptation | Qin Wang, Olga Fink, Luc Van Gool, Dengxin Dai | Proc. CVPR | 2022 | [arXiv:2203.04266](https://arxiv.org/abs/2203.04266) [Code](https://github.com/qinenergy/cotta) |
+| Contrastive Test-Time Adaptation | Dian Chen, Dequan Wang, Trevor Darrell, Sayna Ebrahimi | Proc. CVPR | 2022 | [arXiv:2204.10377](https://arxiv.org/abs/2204.10377) [Code](https://github.com/DianCh/ConTTA) |
+| Test-Time Adaptation via Conjugate Pseudo-labels | Sachin Goyal, Mingjie Sun, Aditi Raghunathan, J. Zico Kolter | Proc. NeurIPS | 2022 | [arXiv:2207.09640](https://arxiv.org/abs/2207.09640) [Code](https://github.com/locuslab/tta_conjugate) |
+| Towards Understanding GD with Hard and Conjugate Pseudo-labels for Test-Time Adaptation | Jun-Kun Wang, Andre Wibisono | Proc. ICLR | 2023 | [arXiv:2210.10019](https://arxiv.org/abs/2210.10019) |
+| TeSLA: Test-Time Self-Learning With Automatic Adversarial Augmentation | Devavrat Tomar, Guillaume Vray, Behzad Bozorgtabar, Jean-Philippe Thiran | Proc. CVPR | 2023 | [arXiv:2303.09870](https://arxiv.org/abs/2303.09870) [Code](https://github.com/devavratTomar/TeSLA) |
+| Cycle Self-Training for Domain Adaptation | Hong Liu, Jianmin Wang, Mingsheng Long | Proc. NeurIPS | 2021 | [arXiv:2103.03571](https://arxiv.org/abs/2103.03571) |
+| Understanding Self-Training for Gradual Domain Adaptation | Ananya Kumar, Tengyu Ma, Percy Liang | Proc. ICML | 2020 | [arXiv:2002.11361](https://arxiv.org/abs/2002.11361) |
+| Confidence Regularized Self-Training | Yang Zou, Zhiding Yu, Xiaofeng Liu, B. V. K. Vijaya Kumar, Jinsong Wang | Proc. ICCV | 2019 | [arXiv:1908.09822](https://arxiv.org/abs/1908.09822) |
+| Domain Adaptation for Semantic Segmentation via Class-Balanced Self-Training | Yang Zou, Zhiding Yu, B. V. K. Vijaya Kumar, Jinsong Wang | Proc. ECCV | 2018 | [arXiv:1710.07969](https://arxiv.org/abs/1710.07969) |
 
 ---
 

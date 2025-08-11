@@ -211,12 +211,6 @@ Performs adaptation without access to source data; only the pretrained model is 
 
 - [Paper Title](#)
 
----
-
-### Test-Time Batch Adaptation (TTBA)
-Adapts the model using batches of test samples (e.g., updating BN stats or consistency objectives).
-
-- [Paper Title](#)
 
 ---
 

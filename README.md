@@ -275,11 +275,19 @@ This section lists papers from the Augmentation Invariance branch in Test-Time A
 | Intelligent Multi-View Test Time Augmentation | Erdem Ozturk, Mohsen Prabhushankar, Ghassan AlRegib | Proc. ICIP | 2024 | [arXiv:2402.09378](https://arxiv.org/abs/2402.09378) |
 ---
 
-### Meta-learning
-Trains models in a meta-learning framework to adapt quickly to new domains during testing.
+# Meta-learning
+a summary of key papers in the meta-learning category for test-time adaptation (TTA) and domain generalization/adaptation. The table below lists the paper titles, authors, conferences, and publication years.
 
-- [Paper Title](#)
-
+| Paper Title | Authors | Conference | Year |
+|-------------|---------|------------|------|
+| Sharp-maml: Sharpness-aware model-agnostic meta learning | Abbas, M.; Xiao, Q.; Chen, L.; Chen, P. Y.; Chen, T. | ICML | 2022 |
+| Test-Time Fast Adaptation for Dynamic Scene Deblurring via Meta-Auxiliary Learning | Not specified in provided list | CVPR | 2021 |
+| Meta-DMoE: Adapting to Domain Shift by Meta-Distillation from Mixture-of-Experts | Not specified in provided list | NeurIPS | 2022 |
+| Model-agnostic meta-learning for fast adaptation of deep networks | Finn, C.; Abbeel, P.; Levine, S. | ICML | 2017 |
+| Meta-learning with differentiable closed-form solvers | Bertinetto, L.; Henriques, J. F.; Torr, P. H.; Vedaldi, A. | arXiv preprint | 2018 |
+| Meta-learning for semi-supervised few-shot classification | Ren, M.; Triantafillou, E.; Ravi, S.; Snell, J.; Swersky, K.; Tenenbaum, J. B.; Larochelle, H.; Zemel, R. S. | arXiv preprint | 2018 |
+| Learning to generalize: Meta-learning for domain generalization | Li, D.; Yang, Y.; Song, Y.-Z.; Hospedales, T. M. | AAAI | 2018 |
+| Metareg: Towards domain generalization using meta-regularization | Balaji, Y.; Sankaranarayanan, S.; Chellappa, R. | NeurIPS | 2018 |
 ---
 
 ### Time-varying / Online TTA

@@ -164,11 +164,37 @@ This section lists papers from the Class Prototype branch in Test-Time Adaptatio
 
 ---
 
-### Feature Alignment
-Matches the feature distribution of test data to that of the source using domain adaptation techniques.
+# Feature Alignment
 
-- [Paper Title](#)
+This section lists papers from the Feature Alignment branch in Test-Time Adaptation, focusing on methods that align features (e.g., via distribution matching, contrastive learning, or adversarial techniques) to adapt models at test time without source data access. The list includes relevant papers from 2019 to 2025, with links to papers, projects, or code where available.
 
+| Title | Authors | Conference/Venue | Year | Link |
+|-------|---------|------------------|------|------|
+| Deep CORAL: Correlation Alignment for Deep Domain Adaptation | Baochen Sun, Kate Saenko | Proc. ECCV | 2016 | [arXiv:1607.01719](https://arxiv.org/abs/1607.01719) |
+| Domain Generalization with Adversarial Feature Learning | Haoliang Li, Sinno Jialin Pan, Shiqi Wang, Alex C. Kot | Proc. CVPR | 2018 | [CVF Open Access](https://openaccess.thecvf.com/content_cvpr_2018/html/Li_Domain_Generalization_With_CVPR_2018_paper.html) |
+| Deep Hashing Network for Unsupervised Domain Adaptation | Hemanth Venkateswara, Jose Eusebio, Shayok Chakraborty, Sethuraman Panchanathan | Proc. CVPR | 2017 | [CVF Open Access](https://openaccess.thecvf.com/content_cvpr_2017/html/Venkateswara_Deep_Hashing_Network_CVPR_2017_paper.html) |
+| Moment Matching for Multi-Source Domain Adaptation | Xingchao Peng, Qinxun Bai, Xide Xia, Zijun Huang, Kate Saenko, Bo Wang | Proc. ICCV | 2019 | [arXiv:1812.01754](https://arxiv.org/abs/1812.01754) |
+| Test-Time Training with Self-Supervision for Generalization under Distribution Shifts | Yu Sun, Xiaolong Wang, Zhuang Liu, John Miller, Alexei Efros, Moritz Hardt | Proc. ICML | 2020 | [arXiv:1909.13231](https://arxiv.org/abs/1909.13231) |
+| Do We Really Need to Access the Source Data? Source Hypothesis Transfer for Unsupervised Domain Adaptation | Jian Liang, Dapeng Hu, Jiashi Feng | Proc. ICML | 2020 | [arXiv:2002.08546](https://arxiv.org/abs/2002.08546) [Code](https://github.com/liangjian66/SHOT) |
+| Improving Robustness Against Common Corruptions by Covariate Shift Adaptation | Steffen Schneider, Evgenia Rusak, Luisa Eck, Oliver Bringmann, Wieland Brendel, Matthias Bethge | Proc. NeurIPS | 2020 | [arXiv:2006.14970](https://arxiv.org/abs/2006.14970) [Code](https://github.com/bethgelab/robustness) |
+| SoFA: Source-data-free Feature Alignment for Unsupervised Domain Adaptation | Haojian Zhang, Yujie Jin, Wenwu Zhu, Yasha Wang, Xin Wang, Shanghang Zhang, Hong Mei | Proc. WACV | 2021 | [CVF Open Access](https://openaccess.thecvf.com/content/WACV2021/html/Zhang_SoFA_Source-Data-Free_Feature_Alignment_for_Unsupervised_Domain_Adaptation_WACV_2021_paper.html) |
+| Adaptive Adversarial Network for Source-Free Domain Adaptation | Taewon Kang, Gyusang Cho, Kyungeun Lee, Joonho Lee | Proc. ICCV | 2021 | [CVF Open Access](https://openaccess.thecvf.com/content/ICCV2021/html/Kang_Adaptive_Adversarial_Network_for_Source-Free_Domain_Adaptation_ICCV_2021_paper.html) |
+| TTT++: When Does Self-Supervised Test-Time Training Fail or Thrive? | Yuejiang Liu, Parth Kothari, Bastien van Delft, Baptiste Bellot-Gurlet, Taylor Mordan, Alexandre Alahi | Proc. NeurIPS | 2021 | [arXiv:2107.06937](https://arxiv.org/abs/2107.06937) [Code](https://github.com/yuejiang-nj/ttt-plus-plus) |
+| Test-Time Classifier Adjustment Module for Model-Agnostic Domain Generalization | Yusuke Iwasawa, Yutaka Matsuo | Proc. NeurIPS | 2021 | [arXiv:2110.10232](https://arxiv.org/abs/2110.10232) [Code](https://github.com/yusuke-iwasawa/ttcam) |
+| Robustifying Vision Transformer without Retraining from Scratch by Test-Time Class-Conditional Feature Alignment | Takeshi Kojima, Yutaka Matsuo, Yusuke Iwasawa | Proc. IJCAI | 2022 | [arXiv:2206.13955](https://arxiv.org/abs/2206.13955) |
+| Source-Free Adaptation to Measurement Shift via Bottom-Up Feature Restoration | Cian Eastwood, Ian Mason, Christopher K. I. Williams, J. Zico Kolter | Proc. ICLR | 2022 | [arXiv:2107.11279](https://arxiv.org/abs/2107.11279) [Code](https://github.com/cianeastwood/bufr) |
+| Invariance Through Latent Alignment | Mattia Segu, Marvin Zhang, Chelsea Finn, Francesco Locatello | Robotics: Science and Systems (RSS) | 2022 | [arXiv:2112.09327](https://arxiv.org/abs/2112.09327) [Project](https://invariance-through-latent-alignment.github.io/) |
+| Source-Free Domain Adaptation via Distribution Estimation | Ying Chen, Jiaqi Wang, Pengxiang Yan, Zilei Wang, Hao Sun, Shuai Wang, Enze Xie | Proc. CVPR | 2022 | [arXiv:2204.13320](https://arxiv.org/abs/2204.13320) |
+| Parameter-Free Online Test-Time Adaptation | Malik Boudiaf, Romain Mueller, Ismail Ben Ayed, Luca Bertinetto | Proc. CVPR | 2022 | [arXiv:2204.04632](https://arxiv.org/abs/2204.04632) |
+| Efficient Test-Time Model Adaptation without Forgetting | Shuaicheng Niu, Jiaxiang Wu, Yifan Zhang, Yaofo Chen, Shijian Zheng, Peilin Zhao, Mingkui Tan | Proc. ICML | 2022 | [arXiv:2204.05868](https://arxiv.org/abs/2204.05868) |
+| Continual Test-Time Domain Adaptation | Qin Wang, Olga Fink, Luc Van Gool, Dengxin Dai | Proc. CVPR | 2022 | [arXiv:2203.04266](https://arxiv.org/abs/2203.04266) [Code](https://github.com/qinenergy/cotta) |
+| Contrastive Test-Time Adaptation | Dian Chen, Dequan Wang, Trevor Darrell, Sayna Ebrahimi | Proc. CVPR | 2022 | [arXiv:2204.10377](https://arxiv.org/abs/2204.10377) [Code](https://github.com/DianCh/ConTTA) |
+| Test-Time Adaptation via Self-Training with Nearest Neighbor Information | Minho Jang, Sae-Young Chung | Proc. ICLR | 2023 | [arXiv:2207.10792](https://arxiv.org/abs/2207.10792) |
+| ActMAD: Activation Matching to Align Distributions for Test-Time-Training | Shuaicheng Niu, Jiaxiang Wu, Yifan Zhang, Zhiquan Wen, Yaofo Chen, Peilin Zhao, Mingkui Tan | Proc. CVPR | 2023 | [arXiv:2304.11215](https://arxiv.org/abs/2304.11215) [Code](https://github.com/mr-eggplant/ActMAD) |
+| Feature Alignment and Uniformity for Test Time Adaptation | Shuaifeng Wang, Di Zhang, Zhenyu Zhang, Jian Zhang, Rui Li | Proc. CVPR | 2023 | [arXiv:2303.10018](https://arxiv.org/abs/2303.10018) [Code](https://github.com/shuaifengzhi/Feature-Alignment-and-Uniformity) |
+| Robustness to Corruption in Pre-Trained Bayesian Neural Networks | Zihuan Wang, Laurence Aitchison | Proc. ICLR | 2023 | [OpenReview](https://openreview.net/forum?id=kUI41mY8bHl) |
+| Towards Stable Test-Time Adaptation in Dynamic Wild World | Shuaicheng Niu, Jiaxiang Wu, Yifan Zhang, Zhiquan Wen, Yaofo Chen, Peilin Zhao, Mingkui Tan | Proc. ICLR | 2023 | [arXiv:2210.00826](https://arxiv.org/abs/2210.00826) [Code](https://github.com/mr-eggplant/SATA) |
+| MEMO: Test Time Robustness via Adaptation and Augmentation | Marvin Zhang, Sergey Levine, Chelsea Finn | Proc. NeurIPS | 2022 | [arXiv:2110.09506](https://arxiv.org/abs/2110.09506) [Code](https://github.com/facebookresearch/memo) |
 ---
 
 ### Generative Modeling

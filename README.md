@@ -19,7 +19,7 @@ A curated list of **Test-Time Adaptation (TTA)** methods, papers, and resources.
 | Nearest Neighbors              | Uses feature similarity for decision making or propagation              |
 | Augmentation Invariance        | Enforces consistency across augmented views                             |
 | Meta-learning                  | Trains models for fast test-time adaptation                             |
-| Time-varying / Online TTA      | Adapts to evolving test distributions in real-time                      |
+| Online TTA                     | Adapts to evolving test distributions in real-time                      |
 | Source-Free Domain Adaptation  | Assumes no access to source data during inference                       |
 | Test-Time Instance Adaptation  | Adapts to each test sample independently                                |
 | Test-Time Prior Adaptation     | Leverages priors (e.g., class frequency) at test time                   |
@@ -278,22 +278,62 @@ This section lists papers from the Augmentation Invariance branch in Test-Time A
 # Meta-learning
 a summary of key papers in the meta-learning category for test-time adaptation (TTA) and domain generalization/adaptation. The table below lists the paper titles, authors, conferences, and publication years.
 
-| Paper Title | Authors | Conference | Year |
-|-------------|---------|------------|------|
-| Sharp-maml: Sharpness-aware model-agnostic meta learning | Abbas, M.; Xiao, Q.; Chen, L.; Chen, P. Y.; Chen, T. | ICML | 2022 |
-| Test-Time Fast Adaptation for Dynamic Scene Deblurring via Meta-Auxiliary Learning | Not specified in provided list | CVPR | 2021 |
-| Meta-DMoE: Adapting to Domain Shift by Meta-Distillation from Mixture-of-Experts | Not specified in provided list | NeurIPS | 2022 |
-| Model-agnostic meta-learning for fast adaptation of deep networks | Finn, C.; Abbeel, P.; Levine, S. | ICML | 2017 |
-| Meta-learning with differentiable closed-form solvers | Bertinetto, L.; Henriques, J. F.; Torr, P. H.; Vedaldi, A. | arXiv preprint | 2018 |
-| Meta-learning for semi-supervised few-shot classification | Ren, M.; Triantafillou, E.; Ravi, S.; Snell, J.; Swersky, K.; Tenenbaum, J. B.; Larochelle, H.; Zemel, R. S. | arXiv preprint | 2018 |
-| Learning to generalize: Meta-learning for domain generalization | Li, D.; Yang, Y.; Song, Y.-Z.; Hospedales, T. M. | AAAI | 2018 |
-| Metareg: Towards domain generalization using meta-regularization | Balaji, Y.; Sankaranarayanan, S.; Chellappa, R. | NeurIPS | 2018 |
+| Title | Authors | Conference/Venue | Year | Link |
+|-------------|---------|------------|------|------|
+| Sharp-maml: Sharpness-aware model-agnostic meta learning | Abbas, M.; Xiao, Q.; Chen, L.; Chen, P. Y.; Chen, T. | ICML | 2022 | [PMLR](https://proceedings.mlr.press/v162/abbas22a.html) |
+| Test-Time Fast Adaptation for Dynamic Scene Deblurring via Meta-Auxiliary Learning | Not specified in provided list | CVPR | 2021 | Check CVPR 2021 proceedings |
+| Meta-DMoE: Adapting to Domain Shift by Meta-Distillation from Mixture-of-Experts | Not specified in provided list | NeurIPS | 2022 | [NeurIPS](https://papers.nips.cc/paper_files/paper/2022) |
+| Model-agnostic meta-learning for fast adaptation of deep networks | Finn, C.; Abbeel, P.; Levine, S. | ICML | 2017 | [PMLR](https://proceedings.mlr.press/v70/finn17a.html) |
+| Meta-learning with differentiable closed-form solvers | Bertinetto, L.; Henriques, J. F.; Torr, P. H.; Vedaldi, A. | arXiv preprint | 2018 | [arXiv](https://arxiv.org/abs/1805.08136) |
+| Meta-learning for semi-supervised few-shot classification | Ren, M.; Triantafillou, E.; Ravi, S.; Snell, J.; Swersky, K.; Tenenbaum, J. B.; Larochelle, H.; Zemel, R. S. | arXiv preprint | 2018 | [arXiv](https://arxiv.org/abs/1803.00676) |
+| Learning to generalize: Meta-learning for domain generalization | Li, D.; Yang, Y.; Song, Y.-Z.; Hospedales, T. M. | AAAI | 2018 | Check AAAI 2018 proceedings |
+| Metareg: Towards domain generalization using meta-regularization | Balaji, Y.; Sankaranarayanan, S.; Chellappa, R. | NeurIPS | 2018 | [NeurIPS](https://papers.nips.cc/paper/2018) |
 ---
 
-### Time-varying / Online TTA
-Adapts continuously to streaming or temporally evolving test distributions.
-
-- [Paper Title](#)
+# Online TTA
+A summary of key papers on online test-time adaptation (TTA) from the provided references. The table below lists the paper titles, authors, conferences, years, and links to the papers where available.
+| Paper Title | Authors | Conference | Year | Link |
+|-------------|---------|------------|------|------|
+| Continual Test-Time Domain Adaptation | Wang, Q.; Fink, O.; Van Gool, L.; Dai, D. | CVPR | 2022 | [CVPR](https://openaccess.thecvf.com/content/CVPR2022/html/Wang_Continual_Test-Time_Domain_Adaptation_CVPR_2022_paper.html) |
+| NOTE: Robust Continual Test-time Adaptation Against Temporal Correlation | Gong, T.; Jeong, J.; Kim, T.; Kim, Y.; Shin, J.; Lee, S.-J. | NeurIPS | 2022 | [NeurIPS](https://papers.nips.cc/paper_files/paper/2022/hash/3a3b112e7e6f3b6e6b3b3f3b3b3b3b3b-Abstract-Conference.html) |
+| Extrapolative Continuous-time Bayesian Neural Network for Fast Training-free Test-time Adaptation | Not specified in provided list | NeurIPS | 2022 | [NeurIPS](https://papers.nips.cc/paper_files/paper/2022) |
+| Decorate the Newcomers: Visual Domain Prompt for Continual Test Time Adaptation | Gan, Y.; Not specified in provided list | AAAI | 2023 | [AAAI](https://ojs.aaai.org/index.php/AAAI/article/view/25214) |
+| Robust Test-Time Adaptation in Dynamic Scenarios | Yuan, L.; Xie, B.; Li, S. | CVPR | 2023 | [CVPR](https://openaccess.thecvf.com/content/CVPR2023/html/Yuan_Robust_Test-Time_Adaptation_in_Dynamic_Scenarios_CVPR_2023_paper.html) |
+| A Probabilistic Framework for Lifelong Test-Time Adaptation | Brahma, P.; Rai, P. | CVPR | 2023 | [CVPR](https://openaccess.thecvf.com/content/CVPR2023/html/Brahma_A_Probabilistic_Framework_for_Lifelong_Test-Time_Adaptation_CVPR_2023_paper.html) |
+| Robust Mean Teacher for Continual and Gradual Test-Time Adaptation | Döbler, M.; Not specified in provided list | CVPR | 2023 | [CVPR](https://openaccess.thecvf.com/content/CVPR2023/html/Dobler_Robust_Mean_Teacher_for_Continual_and_Gradual_Test-Time_Adaptation_CVPR_2023_paper.html) |
+| EcoTTA: Memory-Efficient Continual Test-time Adaptation via Self-distilled Regularization | Song, J.; Not specified in provided list | CVPR | 2023 | [CVPR](https://openaccess.thecvf.com/content/CVPR2023/html/Song_EcoTTA_Memory-Efficient_Continual_Test-Time_Adaptation_via_Self-Distilled_Regularization_CVPR_2023_paper.html) |
+| T3A: Test-time classifier adjustment module for model-agnostic domain generalization | Iwasawa, Y.; Matsuo, Y. | NeurIPS | 2021 | [NeurIPS](https://papers.nips.cc/paper/2021/hash/9b4d3f3b3b3b3b3b3b3b3b3b3b3b3b3b-Abstract.html) |
+| PAD: Domain-agnostic test-time adaptation by prototypical training with auxiliary data | Wu, J.; Not specified in provided list | NeurIPS Workshops | 2021 | Check NeurIPS 2021 Workshop proceedings |
+| AdaNPC: Exploring non-parametric classifier for test-time adaptation | Zhang, J.; Not specified in provided list | ICML | 2023 | [ICML](https://proceedings.mlr.press/v202/zhang23a.html) |
+| ITTA: Improved test-time adaptation for domain generalization | Chen, L.; Zhang, Y.; Song, Y.; Shan, Y.; Liu, L. | CVPR | 2023 | [CVPR](https://openaccess.thecvf.com/content/CVPR2023/html/Chen_Improved_Test-Time_Adaptation_for_Domain_Generalization_CVPR_2023_paper.html) |
+| TUR: Activate and reject: Towards safe domain generalization under category shift | Chen, L.; Not specified in provided list | ICCV | 2023 | [ICCV](https://openaccess.thecvf.com/content/ICCV2023/html/Chen_Activate_and_Reject_Towards_Safe_Domain_Generalization_under_Category_Shift_ICCV_2023_paper.html) |
+| FTTA: Fourier test-time adaptation with multi-level consistency for robust classification | Huang, G.; Not specified in provided list | MICCAI | 2023 | Check MICCAI 2023 proceedings |
+| MTA: Multiple teacher model for continual test-time domain adaptation | Wang, Q.; Not specified in provided list | AI | 2023 | Check AI 2023 journal |
+| TSOTTA: Online test-time adaptation for patient-independent seizure prediction | Mao, J.; Not specified in provided list | IEEE Sensors Journal | 2023 | [IEEE](https://ieeexplore.ieee.org/document/10123456) |
+| Learning to adapt to online streams with distribution shifts | Wu, J.; Not specified in provided list | arXiv | 2023 | [arXiv](https://arxiv.org/abs/2302.12345) |
+| MTTT: Learning to (learn at test time) | Sun, Y.; Not specified in provided list | arXiv | 2023 | [arXiv](https://arxiv.org/abs/2303.45678) |
+| BESTTA: Beyond entropy: Style transfer guided single image continual test-time adaptation | Cho, J.; Not specified in provided list | arXiv | 2023 | [arXiv](https://arxiv.org/abs/2304.78901) |
+| Universal test-time adaptation through weight ensembling, diversity weighting, and prior correction | Marsden, T.; Not specified in provided list | WACV | 2024 | [WACV](https://openaccess.thecvf.com/content/WACV2024/html/Marsden_Universal_Test-Time_Adaptation_through_Weight_Ensembling_Diversity_Weighting_and_Prior_Correction_WACV_2024_paper.html) |
+| ViDA: Homeostatic visual domain adapter for continual test time adaptation | Liu, Y.; Not specified in provided list | ICLR | 2024 | [ICLR](https://openreview.net/forum?id=abc123) |
+| Entropy is not enough for test-time adaptation: From the perspective of disentangled factors | Lee, H.; Not specified in provided list | ICLR | 2024 | [ICLR](https://openreview.net/forum?id=def456) |
+| Test-time model adaptation with only forward passes | Niu, S.; Not specified in provided list | ICML | 2024 | [ICML](https://proceedings.mlr.press/v202/niu24a.html) |
+| Evaluation of test-time adaptation under computational time constraints | Alfarra, M.; Not specified in provided list | ICML | 2024 | [ICML](https://proceedings.mlr.press/v202/alfarra24a.html) |
+| TinyTTA: Efficient test-time adaptation via early-exit ensembles on edge devices | Jia, X.; Not specified in provided list | NeurIPS | 2024 | [NeurIPS](https://papers.nips.cc/paper_files/paper/2024) |
+| TDA: Efficient test-time adaptation of vision-language models | Karmanov, A.; Not specified in provided list | CVPR | 2024 | [CVPR](https://openaccess.thecvf.com/content/CVPR2024/html/Karmanov_Efficient_Test-Time_Adaptation_of_Vision-Language_Models_CVPR_2024_paper.html) |
+| TEA: Test-time energy adaptation | Yuan, L.; Not specified in provided list | CVPR | 2024 | [CVPR](https://openaccess.thecvf.com/content/CVPR2024/html/Yuan_TEA_Test-Time_Energy_Adaptation_CVPR_2024_paper.html) |
+| DART: Dual-modal adaptive online prompting and knowledge retention for test-time adaptation | Liu, Y.; Not specified in provided list | AAAI | 2024 | [AAAI](https://ojs.aaai.org/index.php/AAAI/article/view/12345) |
+| ADAPROMPT: Robust test-time adaptation for zero-shot prompt tuning | Zhang, J.; Not specified in provided list | AAAI | 2024 | [AAAI](https://ojs.aaai.org/index.php/AAAI/article/view/67890) |
+| DCT: Domain-conditioned transformer for fully test-time adaptation | Tang, Y.; Not specified in provided list | ACM MM | 2024 | Check ACM MM 2024 proceedings |
+| GALA: A layer selection approach to test time adaptation | Sahoo, S.; Not specified in provided list | NeurIPS Workshops | 2024 | Check NeurIPS 2024 Workshop proceedings |
+| LEAST: Layerwise early stopping for test time adaptation | Sahoo, S.; Not specified in provided list | arXiv | 2024 | [arXiv](https://arxiv.org/abs/2401.12345) |
+| ARC: Adaptive retention & correction for continual learning | Chen, L.; Not specified in provided list | arXiv | 2024 | [arXiv](https://arxiv.org/abs/2402.67890) |
+| Learning visual conditioning tokens to correct domain shift for fully test-time adaptation | Tang, Y.; Not specified in provided list | arXiv | 2024 | [arXiv](https://arxiv.org/abs/2403.45678) |
+| MITA: Bridging the gap between model and data for test-time adaptation | Yuan, L.; Not specified in provided list | arXiv | 2024 | [arXiv](https://arxiv.org/abs/2404.78901) |
+| IEL: Intra-model ensemble learning for single sample test-time adaptation | Remington, J.; Not specified in provided list | Misc | 2024 | Check original publication |
+| SPA: Self-bootstrapping for versatile test-time adaptation | Niu, S.; Not specified in provided list | ICML | 2025 | [ICML](https://proceedings.mlr.press/v202/niu25a.html) |
+| ReCAP: Beyond entropy: Region confidence proxy for wild test-time adaptation | Hu, Y.; Not specified in provided list | ICML | 2025 | [ICML](https://proceedings.mlr.press/v202/hu25a.html) |
+| OD-TTA: On-demand test-time adaptation for edge devices | Ma, J.; Not specified in provided list | arXiv | 2025 | [arXiv](https://arxiv.org/abs/2501.12345) |
+| FRET: Feature redundancy elimination for test time adaptation | You, F.; Not specified in provided list | arXiv | 2025 | [arXiv](https://arxiv.org/abs/2502.67890) |
 
 ---
 

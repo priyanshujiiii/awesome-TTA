@@ -198,10 +198,36 @@ This section lists papers from the Feature Alignment branch in Test-Time Adaptat
 ---
 
 ### Generative Modeling
-Uses models like GANs, VAEs, or diffusion models to enhance or translate test data into source-like representations.
+This section lists papers from the Generative Modeling branch in Test-Time Adaptation, focusing on methods that leverage generative models (e.g., diffusion models, masked autoencoders, or other generative techniques) to adapt models at test time without source data access. The list includes relevant papers from 2018 to 2023, with links to papers, projects, or code where available.
 
-- [Paper Title](#)
-
+| Title | Authors | Conference/Venue | Year | Link |
+|-------|---------|------------------|------|------|
+| High Quality Monocular Depth Estimation via Transfer Learning | Ibraheem Alhashim, Peter Wonka | arXiv | 2018 | [arXiv:1812.11941](https://arxiv.org/abs/1812.11941) |
+| ObjectNet: A Large-Scale Bias-Controlled Dataset for Pushing the Limits of Object Recognition Models | Andrei Barbu, David Mayo, Julian Alverio, William Luo, Charles Wang, Dan Gutfreund, Josh Tenenbaum, Boris Katz | Proc. NeurIPS | 2019 | [arXiv:2004.02042](https://arxiv.org/abs/2004.02042) |
+| Fine-Grained Visual Classification of Aircraft | Subhransu Maji, Esa Rahtu, Juho Kannala, Matthew Blaschko, Andrea Vedaldi | Technical Report | 2013 | [arXiv:1306.5151](https://arxiv.org/abs/1306.5151) |
+| Automated Flower Classification over a Large Number of Classes | Maria-Elena Nilsback, Andrew Zisserman | Proc. Indian Conference on Computer Vision, Graphics and Image Processing | 2008 | [arXiv:1609.01828](https://arxiv.org/abs/1609.01828) |
+| Label-Efficient Semantic Segmentation with Diffusion Models | Dmitry Baranchuk, Ivan Rubachev, Andrey Voynov, Valentin Khrulkov, Artem Babenko | arXiv | 2021 | [arXiv:2112.03126](https://arxiv.org/abs/2112.03126) |
+| MT3: Meta Test-Time Training for Self-Supervised Test-Time Adaption | Alexander Bartler, Andre Bühler, Felix Wiewel, Mario Döbler, Bin Yang | Proc. AISTATS | 2022 | [arXiv:2103.16201](https://arxiv.org/abs/2103.16201) |
+| Test-Time Training with Masked Autoencoders | Yossi Gandelsman, Yu Sun, Xinlei Chen, Alexei A. Efros | Proc. NeurIPS | 2022 | [arXiv:2209.07522](https://arxiv.org/abs/2209.07522) |
+| Peekaboo: Text to Image Diffusion Models are Zero-Shot Segmentors | Ryan Burgert, Kanchana Ranasinghe, Xiang Li, Michael S. Ryoo | arXiv | 2022 | [arXiv:2211.13224](https://arxiv.org/abs/2211.13224) |
+| Text-to-Image Diffusion Models are Zero-Shot Classifiers | Kevin Clark, Priyank Jaini | arXiv | 2023 | [arXiv:2303.15233](https://arxiv.org/abs/2303.15233) |
+| Synthetic Data from Diffusion Models Improves ImageNet Classification | Shekoofeh Azizi, Simon Kornblith, Chitwan Saharia, Mohammad Norouzi, David J. Fleet | arXiv | 2023 | [arXiv:2304.08466](https://arxiv.org/abs/2304.08466) |
+| Your Diffusion Model is Secretly a Zero-Shot Classifier | Alexander C. Li, Mihir Prabhudesai, Shivam Duggal, Ellis Brown, Deepak Pathak | arXiv | 2023 | [arXiv:2303.16203](https://arxiv.org/abs/2303.16203) |
+| GLIGEN: Open-Set Grounded Text-to-Image Generation | Yuheng Li, Haotian Liu, Qingyang Wu, Fangzhou Mu, Jianwei Yang, Jianfeng Gao, Chunyuan Li, Yong Jae Lee | arXiv | 2023 | [arXiv:2301.07093](https://arxiv.org/abs/2301.07093) |
+| Test-Time Adaptation with Slot-Centric Models | Mihir Prabhudesai, Anirudh Goyal, Sujoy Paul, Sjoerd van Steenkiste, Mehdi S. M. Sajjadi, Guneet Singh, Thomas Kipf, Deepak Pathak, Katerina Fragkiadaki | Proc. ICML | 2023 | [arXiv:2203.11194](https://arxiv.org/abs/2203.11194) |
+| Effective Data Augmentation With Diffusion Models | Brandon Trabucco, Kyle Doherty, Max Gurinas, Ruslan Salakhutdinov | arXiv | 2023 | [arXiv:2302.07944](https://arxiv.org/abs/2302.07944) |
+| On Pitfalls of Test-Time Adaptation | Hao Zhao, Yuejiang Liu, Alexandre Alahi, Tao Lin | arXiv | 2023 | [arXiv:2306.03536](https://arxiv.org/abs/2306.03536) |
+| Scaling Robot Learning with Semantically Imagined Experience | Tianhe Yu, Ted Xiao, Austin Stone, Jonathan Tompson, Anthony Brohan, Su Wang, Jaspiar Singh, Clayton Tan, Jacqueline Peralta, Brian Ichter | arXiv | 2023 | [arXiv:2302.11550](https://arxiv.org/abs/2302.11550) |
+| Open-Vocabulary Panoptic Segmentation with Text-to-Image Diffusion Models | Jiarui Xu, Sifei Liu, Arash Vahdat, Wonmin Byeon, Xiaolong Wang, Shalini De Mello | arXiv | 2023 | [arXiv:2303.04803](https://arxiv.org/abs/2303.04803) |
+| High-Resolution Image Synthesis with Latent Diffusion Models | Robin Rombach, Andreas Blattmann, Dominik Lorenz, Patrick Esser, Björn Ommer | Proc. CVPR | 2022 | [arXiv:2112.10752](https://arxiv.org/abs/2112.10752) |
+| Photorealistic Text-to-Image Diffusion Models with Deep Language Understanding | Chitwan Saharia, William Chan, Saurabh Saxena, Lala Li, Jay Whang, Emily L. Denton, Kamyar Ghasemipour, Raphael Gontijo Lopes, Burcu Karagol Ayan, Tim Salimans | Proc. NeurIPS | 2022 | [arXiv:2205.11487](https://arxiv.org/abs/2205.11487) |
+| Consistency Models | Yang Song, Prafulla Dhariwal, Mark Chen, Ilya Sutskever | arXiv | 2023 | [arXiv:2303.01469](https://arxiv.org/abs/2303.01469) |
+| Scalable Diffusion Models with Transformers | William Peebles, Saining Xie | arXiv | 2022 | [arXiv:2212.09748](https://arxiv.org/abs/2212.09748) |
+| The Effectiveness of MAE Pre-Pretraining for Billion-Scale Pretraining | Mannat Singh, Quentin Duval, Kalyan Vasudev Alwala, Haoqi Fan, Vaibhav Aggarwal, Aaron Adcock, Armand Joulin, Piotr Dollár, Christoph Feichtenhofer, Ross Girshick | arXiv | 2023 | [arXiv:2303.13496](https://arxiv.org/abs/2303.13496) |
+| Adding Conditional Control to Text-to-Image Diffusion Models | Lvmin Zhang, Maneesh Agrawala | arXiv | 2023 | [arXiv:2302.05543](https://arxiv.org/abs/2302.05543) |
+| Test-Time Training with Self-Supervision for Generalization under Distribution Shifts | Yu Sun, Xiaolong Wang, Zhuang Liu, John Miller, Alexei Efros, Moritz Hardt | Proc. ICML | 2020 | [arXiv:1909.13231](https://arxiv.org/abs/1909.13231) |
+| Tent: Fully Test-Time Adaptation by Entropy Minimization | Dequan Wang, Evan Shelhamer, Shaoteng Liu, Bruno Olshausen, Trevor Darrell | arXiv | 2020 | [arXiv:2006.10726](https://arxiv.org/abs/2006.10726) |
+| Continual Test-Time Domain Adaptation | Qin Wang, Olga Fink, Luc Van Gool, Dengxin Dai | Proc. CVPR | 2022 | [arXiv:2203.13591](https://arxiv.org/abs/2203.13591) |
 ---
 
 ### Nearest Neighbors

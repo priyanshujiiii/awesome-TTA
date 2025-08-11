@@ -1,8 +1,8 @@
 # Awesome Test-Time Adaptation (TTA)
 
 
-A curated list of **Test-Time Adaptation (TTA)** methods, papers, and resources.  
-
+A curated collection of Test-Time Adaptation (TTA) methods, research papers, and resources.
+This repository is a work in progress — we add the latest papers every month.
 ---
 
 ## Summary Table of TTA Techniques

@@ -2,7 +2,6 @@
 
 
 A curated list of **Test-Time Adaptation (TTA)** methods, papers, and resources.  
-This repository accompanies our ACM Computing Surveys (CUSR) submission titled *"Awesome TTA: A Comprehensive Survey on Test-Time Adaptation Techniques"*.
 
 ---
 
@@ -137,14 +136,3 @@ Uses test-time priors (e.g., class balance, label statistics) to regularize adap
 
 ---
 
-## How to Contribute
-
-if you Like our work please cite our paper
-
-```
-@article{sharma2025awesome,
-  title={Awesome TTA: A Comprehensive Survey on Test-Time Adaptation Techniques},
-  author={Priyanshu Sharma},
-  journal={ACM Computing Surveys (CUSR)},
-  year={2025}
-}
